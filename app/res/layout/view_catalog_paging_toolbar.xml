@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbarLayout"
+    style="@style/CatalogPagingToolbarTheme" >
+
+    <ImageButton
+        android:id="@+id/topButton"
+        style="@style/ToolbarButton"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/description_seekicon_top"
+        android:src="@drawable/seekicon_top" />
+
+    <ImageButton
+        android:id="@+id/prevButton"
+        style="@style/ToolbarButton"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/topButton"
+        android:contentDescription="@string/description_seekicon_prev"
+        android:src="@drawable/seekicon_prev" />
+
+    <ImageButton
+        android:id="@+id/endButton"
+        style="@style/ToolbarButton"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/description_seekicon_end"
+        android:src="@drawable/seekicon_end" />
+
+    <ImageButton
+        android:id="@+id/nextButton"
+        style="@style/ToolbarButton"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/endButton"
+        android:contentDescription="@string/description_seekicon_next"
+        android:src="@drawable/seekicon_next" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/nextButton"
+        android:layout_toRightOf="@+id/prevButton"
+        android:maxHeight="10dp"
+        android:minHeight="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:thumb="@drawable/seekbar_thumb" />
+
+    <View
+        style="@style/ToolbarBoundaryTheme"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/BaristaPushNewSDK/src/main/res/values-sw360dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="badge_button">25dp</dimen>
+    <dimen name="bariusta_button">50dp</dimen>
+    <dimen name="bariusta_button_width">115dp</dimen>
+    <dimen name="brista_btn_list">40dp</dimen>
+    <dimen name="brista_btn_notify_list">25dp</dimen>
+    <dimen name="btn_back">35dp</dimen>
+    <dimen name="btn_read_more_height">40dp</dimen>
+    <dimen name="btn_read_more_width">180dp</dimen>
+    <dimen name="button_new">50dp</dimen>
+    <dimen name="content_red_more">45dp</dimen>
+    <dimen name="dash_line_height">2dp</dimen>
+    <dimen name="date_text_size">13dp</dimen>
+    <dimen name="detail_date_text_size">16sp</dimen>
+    <dimen name="detail_icon_new">50dp</dimen>
+    <dimen name="detail_title_text_size">20sp</dimen>
+    <dimen name="dialog_close">30dp</dimen>
+    <dimen name="dialog_new_height">150dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="icon_new">30dp</dimen>
+    <dimen name="icon_right">40dp</dimen>
+    <dimen name="image_count_height">30dp</dimen>
+    <dimen name="image_view_height">130dp</dimen>
+    <dimen name="item_height">85dp</dimen>
+    <dimen name="margin_bottom_10">10dp</dimen>
+    <dimen name="margin_left_10">10dp</dimen>
+    <dimen name="margin_left_25">25dp</dimen>
+    <dimen name="margin_top_10">10dp</dimen>
+    <dimen name="margin_top_4">4dp</dimen>
+    <dimen name="margin_top_7">7dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_3">2.6dp</dimen>
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_60">60dp</dimen>
+    <dimen name="padding_7">7dp</dimen>
+    <dimen name="padding_9">9dp</dimen>
+    <dimen name="read_more_height">75dp</dimen>
+    <dimen name="read_text_size">18dp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="title_text_size">16sp</dimen>
+    <dimen name="unread_text_size">16sp</dimen>
+</resources>

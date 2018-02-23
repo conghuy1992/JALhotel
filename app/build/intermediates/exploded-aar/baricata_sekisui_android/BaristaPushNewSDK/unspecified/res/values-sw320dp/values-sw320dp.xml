@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/barista7/Desktop/baricata_sekisui_android/BaristaPushNewSDK/src/main/res/values-sw320dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">14.22dp</dimen>
+    <dimen name="activity_vertical_margin">14.22dp</dimen>
+    <dimen name="badge_button">22.22dp</dimen>
+    <dimen name="bariusta_button">44.44dp</dimen>
+    <dimen name="bariusta_button_width">102.22dp</dimen>
+    <dimen name="brista_btn_list">32.44dp</dimen>
+    <dimen name="brista_btn_notify_list">22.22dp</dimen>
+    <dimen name="btn_back">28.88dp</dimen>
+    <dimen name="btn_read_more_height">39dp</dimen>
+    <dimen name="btn_read_more_width">160dp</dimen>
+    <dimen name="button_new">44.4dp</dimen>
+    <dimen name="content_red_more">39dp</dimen>
+    <dimen name="dash_line_height">1.777dp</dimen>
+    <dimen name="date_text_size">11.55dp</dimen>
+    <dimen name="detail_date_text_size">14.22sp</dimen>
+    <dimen name="detail_icon_new">44.44dp</dimen>
+    <dimen name="detail_title_text_size">17.76sp</dimen>
+    <dimen name="dialog_close">26.66dp</dimen>
+    <dimen name="dialog_new_height">133.2dp</dimen>
+    <dimen name="divider_height">0.8889dp</dimen>
+    <dimen name="icon_new">26.64dp</dimen>
+    <dimen name="icon_right">35.55dp</dimen>
+    <dimen name="image_count_height">26.66dp</dimen>
+    <dimen name="image_view_height">115.44dp</dimen>
+    <dimen name="item_height">75.55dp</dimen>
+    <dimen name="margin_bottom_10">8.888dp</dimen>
+    <dimen name="margin_left_10">8.888dp</dimen>
+    <dimen name="margin_left_25">22.22dp</dimen>
+    <dimen name="margin_top_10">8.888dp</dimen>
+    <dimen name="margin_top_4">3.55dp</dimen>
+    <dimen name="margin_top_7">6.22dp</dimen>
+    <dimen name="padding_10">8.888dp</dimen>
+    <dimen name="padding_3">2.66dp</dimen>
+    <dimen name="padding_5">4.44dp</dimen>
+    <dimen name="padding_60">53.33dp</dimen>
+    <dimen name="padding_7">6.22dp</dimen>
+    <dimen name="padding_9">7.99dp</dimen>
+    <dimen name="read_more_height">62.16dp</dimen>
+    <dimen name="read_text_size">16dp</dimen>
+    <dimen name="text_size_14">12.4sp</dimen>
+    <dimen name="text_size_16">13.22sp</dimen>
+    <dimen name="text_size_18">16sp</dimen>
+    <dimen name="text_size_20">17.76sp</dimen>
+    <dimen name="text_size_22">19.5sp</dimen>
+    <dimen name="title_text_size">14.22sp</dimen>
+    <dimen name="unread_text_size">14.22sp</dimen>
+</resources>

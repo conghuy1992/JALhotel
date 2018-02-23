@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"/>
+
+</menu>
+<!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/menu/main.xml -->

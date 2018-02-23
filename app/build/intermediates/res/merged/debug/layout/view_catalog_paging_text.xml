@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="52dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/pagingtext_tab_shape"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:textColor="@android:color/white" >
+
+        <TextView
+            android:id="@+id/tabTextView"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contentsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/statusView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_catalog_pageinfo"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:textColor="@android:color/white"
+            android:paddingRight="10dp"
+            android:paddingTop="2dp"
+            android:paddingLeft="10dp" />
+
+        <LinearLayout
+            android:id="@+id/webViewLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_catalog_pageinfo"
+            android:orientation="vertical" >
+
+            <WebView
+                android:id="@+id/webView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/layout/view_catalog_paging_text.xml -->

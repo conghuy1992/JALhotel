@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="66dp"
+    android:background="@drawable/pagelinkblink_shape"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Link"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+</LinearLayout>
+<!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/layout/view_catalog_link_indicator.xml -->

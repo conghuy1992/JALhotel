@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slideup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:focusableInTouchMode="false"
+    android:foregroundGravity="bottom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/slideup_title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="@color/bg_map_slide_title"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/name"
+                android:layout_gravity="center_vertical"
+                android:textColor="#444444"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:ellipsize="end" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginLeft="10dp" />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#d7d7d7"
+                android:layout_marginRight="10dp" />
+
+            <ImageView
+                android:src="@drawable/mapicon_arrow_down"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="fitCenter"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#e3e3e3"/>
+
+        <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/info"
+            android:divider="@drawable/map_slideup_list_divider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:cacheColorHint="@android:color/white"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_weight="1"
+            android:drawSelectorOnTop="true"
+            android:listSelector="@drawable/item_background_holo_light"
+            />
+
+    </LinearLayout>
+</RelativeLayout>
+<!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/layout/view_map_slideup.xml -->

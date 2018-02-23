@@ -1,0 +1,60 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--<dimen name="activity_horizontal_margin">21.33dp</dimen>
+    <dimen name="activity_vertical_margin">21.33dp</dimen>
+    <dimen name="divider_height">1.33dp</dimen>
+    <dimen name="unread_text_size">21.33sp</dimen>
+    <dimen name="brista_btn_list">66.66dp</dimen>
+    <dimen name="brista_btn_notify_list">33.33dp</dimen>
+
+    &lt;!&ndash; margin &ndash;&gt;
+    <dimen name="margin_top_7">9.33dp</dimen>
+    <dimen name="margin_left_10">13.33dp</dimen>
+    <dimen name="margin_top_10">13.33dp</dimen>
+    <dimen name="margin_bottom_10">13.33dp</dimen>
+    <dimen name="margin_left_25">33.33dp</dimen>
+    <dimen name="margin_top_4">5.33dp</dimen>
+
+    &lt;!&ndash; padding &ndash;&gt;
+    <dimen name="padding_10">13.33dp</dimen>
+    <dimen name="padding_5">6.66dp</dimen>
+    <dimen name="padding_60">80dp</dimen>
+
+    &lt;!&ndash; text size &ndash;&gt;
+    <dimen name="text_size_20">26.66sp</dimen>
+    <dimen name="text_size_22">29.33sp</dimen>
+    <dimen name="text_size_16">21.33sp</dimen>
+    <dimen name="text_size_18">24sp</dimen>
+    <dimen name="text_size_14">18.66sp</dimen>
+
+    &lt;!&ndash; item notification &ndash;&gt;
+    <dimen name="dash_line_height">2.66dp</dimen>
+    <dimen name="item_height">126.66dp</dimen>
+    <dimen name="icon_new">40dp</dimen>
+    <dimen name="title_text_size">24sp</dimen>
+    <dimen name="date_text_size">17.33dp</dimen>
+    <dimen name="icon_right">53.33dp</dimen>
+
+    &lt;!&ndash; detail &ndash;&gt;
+    <dimen name="read_text_size">24dp</dimen>
+    <dimen name="image_view_height">173.33dp</dimen>
+    <dimen name="detail_icon_new">93.33dp</dimen>
+    <dimen name="detail_title_text_size">26.66sp</dimen>
+    <dimen name="detail_date_text_size">21.33sp</dimen>
+    <dimen name="read_more_height">93.33dp</dimen>
+    <dimen name="btn_read_more_width">240dp</dimen>
+    <dimen name="btn_read_more_height">53.33dp</dimen>
+    <dimen name="btn_back">40dp</dimen>
+    <dimen name="content_red_more">53.33dp</dimen>
+    <dimen name="image_count_height">40dp</dimen>
+
+    &lt;!&ndash; bariusta_button &ndash;&gt;
+    <dimen name="bariusta_button">66.66dp</dimen>
+    <dimen name="badge_button">33.33dp</dimen>
+
+    &lt;!&ndash; dialog new &ndash;&gt;
+    <dimen name="dialog_new_height">200dp</dimen>
+    <dimen name="dialog_close">40dp</dimen>
+    <dimen name="button_new">66.66dp</dimen>-->
+
+</resources>

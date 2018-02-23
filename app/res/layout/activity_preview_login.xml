@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/prev_bg"
+    android:focusable="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/brand_logo"
+            android:scaleType="fitCenter" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/prev_edit_round_top"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/imageViewMail"
+                android:scaleType="fitCenter"
+                android:src="@drawable/prev_login_mail"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="4dp" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/editMail"
+                android:inputType="textEmailAddress"
+                android:hint="@string/prev_hint_mail"
+                style="@style/PreviewLoginText"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/prev_edit_round_bottom"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-2dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/imageViewPass"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="4dp"
+                android:src="@drawable/prev_login_passwd" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/editPass"
+                android:inputType="textPassword"
+                android:hint="@string/prev_hint_pass"
+                style="@style/PreviewLoginText" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="70dp"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:id="@+id/loginBtn"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:background="@drawable/prev_login_selector"
+                android:clickable="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/textView"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:text="@string/prev_btn_login" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

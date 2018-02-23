@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigationLayout"
+    style="@style/NavigationTheme" >
+
+    <LinearLayout
+        android:id="@+id/leftLayout"
+        style="@style/NavigationLeftLayoutTheme" >
+
+        <ImageButton
+            android:id="@+id/backButton"
+            style="@style/ToolbarButton"
+            android:contentDescription="@string/button_home"
+            android:src="@drawable/toolbaricon_back" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rightLayout"
+        style="@style/NavigationRightLayoutTheme" >
+
+        <ImageButton
+            android:id="@+id/openButton"
+            style="@style/ToolbarButton"
+            android:contentDescription="@string/description_toolbaricon_open_to"
+            android:src="@drawable/toolbaricon_open_to" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/centerLayout"
+        style="@style/NavigationCenterLayoutTheme"
+        android:layout_toLeftOf="@+id/rightLayout"
+        android:layout_toRightOf="@+id/leftLayout" >
+
+        <TextView
+            android:id="@+id/titleView"
+            style="@style/NavigationTitleView"
+            android:text="@string/title_browser" />
+    </RelativeLayout>
+
+    <View
+        style="@style/NavigationBoundaryTheme"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

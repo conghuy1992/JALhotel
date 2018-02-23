@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!--<com.sekisuiheim.shop.activity.web.WebNavigationView-->
+        <!--android:id="@+id/navigationView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <FrameLayout
+        android:id="@+id/frame_overray"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/transparent" >
+        <LinearLayout
+            android:id="@+id/linear_overray"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:gravity="bottom">
+            <View
+                android:id="@+id/view_overray"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent">
+            </View>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="120dp">
+            </View>
+        </LinearLayout>
+    </FrameLayout>
+
+    <WebView
+        android:id="@+id/browserView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </WebView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="32dp"
+        android:gravity="right" >
+
+        <ImageButton
+            android:id="@+id/btnBacktoList"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/button_news_back"
+            android:textColor="@android:color/white"
+            android:onClick="onClickBackToList"
+            android:layout_marginRight="32dp"
+            android:layout_marginLeft="32dp"
+            android:src="@drawable/mapicon_list_back" />
+
+        <LinearLayout
+            android:id="@+id/news_operation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="right" >
+
+            <LinearLayout
+                android:id="@+id/browser_operation"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="@drawable/button_news_operation"
+                android:gravity="right|center"
+                android:layout_gravity="right">
+
+                <ImageButton
+                    android:id="@+id/btnGoBack"
+                    android:gravity="center"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:textSize="24sp"
+                    android:textColor="@android:color/white"
+                    android:background="@android:color/transparent"
+                    android:onClick="onClickGoBack"
+                    android:src="@drawable/toolbaricon_back"/>
+
+                <ImageButton
+                    android:id="@+id/btnGoForward"
+                    android:gravity="center"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:textSize="24sp"
+                    android:textColor="@android:color/white"
+                    android:background="@android:color/transparent"
+                    android:onClick="onClickGoForward"
+                    android:src="@drawable/toolbaricon_next"/>
+
+                <Button
+                    android:id="@+id/btnReload"
+                    android:gravity="center"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/toolbaricon_reload"
+                    android:onClick="onClickReload" />
+
+                <Button
+                    android:id="@+id/btnOpenApp"
+                    android:gravity="center"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/toolbaricon_open_to"
+                    android:onClick="onClickOpenApp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
+<!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/layout/activity_news_detail.xml -->

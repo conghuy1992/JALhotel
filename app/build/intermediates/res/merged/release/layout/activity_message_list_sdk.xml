@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycleView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#ccc"
+            android:dividerHeight="@dimen/divider_height"
+            android:scrollbars="vertical" />
+
+        <RelativeLayout
+            android:id="@+id/loadingLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#55000000"
+            android:clickable="true"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:indeterminate="false" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9.0"
+        android:background="@drawable/border_top">
+
+        <RelativeLayout
+            android:layout_width="@dimen/bariusta_button_width"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true">
+            <Button
+                android:id="@+id/home"
+                android:layout_width="@dimen/brista_btn_list"
+                android:layout_height="@dimen/brista_btn_list"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/home_selector"/>
+        </RelativeLayout>
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/go_setting"
+            android:layout_width="@dimen/brista_btn_list"
+            android:layout_height="@dimen/brista_btn_list"
+            android:layout_centerInParent="true"
+            android:background="@drawable/setting_selector"/>
+
+        <RelativeLayout
+            android:layout_width="@dimen/bariusta_button_width"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+
+            <Button
+                android:id="@+id/bariusta_button"
+                android:layout_width="@dimen/brista_btn_list"
+                android:layout_height="@dimen/brista_btn_list"
+                android:background="@drawable/notification"
+                android:textColor="#000"
+                android:textSize="@dimen/text_size_16" />
+
+            <RelativeLayout
+                android:id="@+id/content_unread"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/bariusta_button"
+                android:background="@drawable/badge_bg"
+                android:paddingBottom="@dimen/padding_3"
+                android:paddingLeft="@dimen/padding_7"
+                android:paddingRight="@dimen/padding_7"
+                android:paddingTop="@dimen/padding_3">
+
+                <TextView
+                    android:id="@+id/tvUnread"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/text_size_14" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
+<!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/BaristaPushNewSDK/src/main/res/layout/activity_message_list_sdk.xml --><!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/exploded-aar/source/BaristaPushNewSDK/unspecified/res/layout/activity_message_list_sdk.xml -->

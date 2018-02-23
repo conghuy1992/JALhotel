@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hotelokura.jalhotels.oneharmony"
+    android:versionCode="15"
+    android:versionName="2.6.1">
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- for Tapjoy -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- for Map -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <permission
+        android:name=".permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name=".permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <!-- Push SDK -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- The below are for push notification, see http://developer.android.com/google/gcm/gs.html -->
+    <permission
+        android:name="hotelokura.jalhotels.oneharmony.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="hotelokura.jalhotels.oneharmony.permission.C2D_MESSAGE" />
+    <!-- App receives GCM messages. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- Let GCM use notification vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAV_LSJJraPL3w1JiFdV1RueRgzaFTbijM" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".brand_preview.PreviewLoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:noHistory="true"></activity>
+        <activity
+            android:name=".brand_preview.PreviewMenuActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"></activity>
+        <activity
+            android:name=".activity.splash.SplashActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"></activity>
+        <activity
+            android:name=".activity.coverflow.CoverFlowActivity"
+            android:configChanges="orientation|screenSize"></activity>
+        <activity
+            android:name=".activity.cataloglist.CatalogListActivity"
+            android:configChanges="orientation|screenSize"></activity>
+        <activity
+            android:name=".activity.catalog.CatalogActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="false"></activity>
+        <activity
+            android:name=".activity.bookmark.BookmarkActivity"
+            android:configChanges="orientation|screenSize"></activity>
+        <activity
+            android:name=".activity.help.HelpActivity"
+            android:configChanges="orientation|screenSize"></activity>
+        <activity
+            android:name=".activity.info.InfoActivity"
+            android:configChanges="orientation|screenSize"></activity>
+        <activity
+            android:name=".activity.web.WebViewActivity"
+            android:configChanges="orientation|screenSize"></activity>
+        <activity
+            android:name=".activity.map.MapActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".activity.webtop.WebTopActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".activity.news.NewsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/news_title" />
+        <activity
+            android:name=".activity.ActivityLogin"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity.ActivityReservation"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity.news.NewsDetailActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/news_title" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <!--for Tapjoy(バリカタのみ利用)-->
+        <activity
+            android:name="com.tapjoy.TJCOffersWebView"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.TapjoyFullScreenAdWebView"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.TapjoyVideoView"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.TJAdUnitView"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.tapjoy.mraid.view.ActionHandler"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.mraid.view.Browser"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+
+        <!-- for GCM receive ==> -->
+
+        <receiver
+            android:name="com.baristapushsdk.gcm.GcmBroadcastReveiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.baristapushsdk" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.baristapushsdk.gcm.GcmIntentService" />
+
+        <!--<receiver-->
+        <!--android:name="com.ktr.pnplatform.gcm.PNGCMBroadcastReceiver"-->
+        <!--android:permission="com.google.android.c2dm.permission.SEND">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="com.google.android.c2dm.intent.RECEIVE"/>-->
+        <!--<action android:name="com.google.android.c2dm.intent.REGISTRATION"/>-->
+
+        <!--<category android:name="com.ktr.pnplatform"/>-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+        <!--<service android:name="com.ktr.pnplatform.gcm.PNGCMIntentService"/>-->
+
+        <!-- 検証用ブロードキャストレシーバ -->
+        <receiver android:name=".receiver.TestReceiver">
+            <intent-filter>
+                <action android:name="test.android.intent.action.TEST1" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

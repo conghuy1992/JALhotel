@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <hotelokura.jalhotels.oneharmony.activity.info.InfoNavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/infoToolbarView"
+        android:layout_below="@+id/navigationView"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.0"
+                android:orientation="vertical" >
+
+                <LinearLayout style="@style/BackBorderLayer.Black.InfoTable" >
+
+                    <LinearLayout style="@style/ViewBorderLayer.White.InfoTable" >
+
+                        <TextView
+                            android:id="@+id/infoTitleView"
+                            style="@style/InfoView.Text"
+                            android:maxLines="1"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/infoMsg1View"
+                            style="@style/InfoView.Text" />
+
+                        <TextView
+                            android:id="@+id/infoMsg2View"
+                            style="@style/InfoView.Text" />
+
+                        <LinearLayout style="@style/Border.Col" />
+
+                        <TextView
+                            android:id="@+id/copyrightView"
+                            style="@style/InfoView"
+                            android:maxLines="1" />
+
+                        <FrameLayout
+                            android:id="@+id/infoAppBanner"
+                            style="@style/Overlay.Black"
+                            android:layout_gravity="center" >
+
+                            <ImageView
+                                android:id="@+id/logo_image"
+                                style="@style/OverlayImage"
+                                android:layout_width="200dp"
+                                android:layout_height="50dp"
+                                android:contentDescription="@string/description_baricata_logo"
+                                android:src="@drawable/brand_logo_info" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:id="@+id/appVersion"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right|bottom"
+                            android:textColor="#ff555555"
+                            android:textSize="8sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right" >
+
+                <Button
+                    android:id="@+id/cacheClearButton"
+                    style="@style/CacheClearButton"
+                    android:text="@string/info_button_cache_clear" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <hotelokura.jalhotels.oneharmony.activity.info.InfoToolbarView
+        android:id="@+id/infoToolbarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+
+</RelativeLayout>
+<!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/layout/activity_info.xml -->

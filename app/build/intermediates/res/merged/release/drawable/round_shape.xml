@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:width="80dp" android:height="80dp" />
+            <solid android:color="#B3000000" />
+        </shape>
+    </item>
+</selector><!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/drawable/round_shape.xml -->

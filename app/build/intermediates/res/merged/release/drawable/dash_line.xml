@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="line">
+    <size
+        android:height="2dp"
+        android:width="700dp" />
+    <stroke
+        android:width="1dp"
+        android:color="#aaa9a9"
+        android:dashGap="5dp"
+        android:dashWidth="5dp"/>
+</shape><!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/BaristaPushNewSDK/src/main/res/drawable/dash_line.xml --><!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/exploded-aar/source/BaristaPushNewSDK/unspecified/res/drawable/dash_line.xml -->

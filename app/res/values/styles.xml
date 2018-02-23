@@ -1,0 +1,376 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ファイル生成時のデフォルト値と思われる。使っているか？　Start -->
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!-- ファイル生成時のデフォルト値と思われる。使っているか？　End -->
+
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- View：ProgressIndicatorDialog Start -->
+    <style name="ProgressIndicatorDialogTheme" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <!-- View：ProgressIndicatorDialog End -->
+
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- ナビゲーションバー Start -->
+    <style name="NavigationTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@color/bg_navi</item>
+    </style>
+
+    <style name="NavigationLeftLayoutTheme">
+        <item name="android:layout_width">66dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="NavigationRightLayoutTheme">
+        <item name="android:layout_width">66dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="NavigationCenterLayoutTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="NavigationBoundaryTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+    <style name="NavigationBackButton">
+        <item name="android:layout_width">55dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:text">@string/button_back</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="NavigationImageButton">
+        <item name="android:layout_width">55dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="NavigationTitleView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.5</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!-- ナビゲーションバー End -->
+    <!-- ツールバー Start -->
+    <style name="ToolbarTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@color/bg_navi</item>
+    </style>
+
+    <style name="ToolbarBoundaryTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+    <style name="ToolbarButton">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/toolbar_button</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <!-- ツールバー End -->
+
+
+    <!--
+    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    クリック時 オーバーレイ色の変更  
+	例：
+        <FrameLayout style="Overlay.Black">
+            <ImageView style="OverlayImage">
+        </FrameLayout>
+    -->
+    <!-- （基底用スタイル） -->
+    <style name="Overlay">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foregroundGravity">fill</item>
+    </style>
+    <!-- 黒 -->
+    <style name="Overlay.Black">
+        <item name="android:foreground">@drawable/click_overlay_black</item>
+    </style>
+    <!-- 白 -->
+    <style name="Overlay.White">
+        <item name="android:foreground">@drawable/click_overlay_black</item>
+    </style>
+    <!-- ImageViewの縦横調整 -->
+    <style name="OverlayImage">
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <!--
+    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    罫線スタイル 
+	例：
+        <LinearLayout style="Border.Col" />
+    -->
+    <!-- （基底用スタイル） -->
+    <style name="Border">
+        <item name="android:padding">0.5dp</item>
+        <item name="android:layout_margin">9dp</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+    <!-- 横罫線 -->
+    <style name="Border.Col">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 縦罫線 -->
+    <style name="Border.Row">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!--
+    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    枠線スタイル 
+	例：
+        <LinearLayout style="BackBorderLayer.Gray" >
+        	<LinearLayout style="ViewBorderLayer.White">
+            	<TextView ... />
+            	...
+            </LinearLayout>
+        </LinearLayout>
+    -->
+    <!-- （基底用スタイル） -->
+    <style name="BackBorderLayer">
+        <item name="android:paddingBottom">1dp</item>
+    </style>
+    <!-- 白 -->
+    <style name="BackBorderLayer.White">
+        <item name="android:background">@android:color/white</item>
+    </style>
+    <!-- 灰色 -->
+    <style name="BackBorderLayer.Gray">
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+    <!-- 黒 -->
+    <style name="BackBorderLayer.Black">
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+    <!-- （基底用スタイル） -->
+    <style name="ViewBorderLayer">
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:layout_marginLeft">1dp</item>
+    </style>
+    <!-- 白 -->
+    <style name="ViewBorderLayer.White">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <!-- 枠線スタイル End -->
+
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- 画面：カタログ一覧 Start -->
+    <style name="CatalogListItemTitleTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/view_catalog_text_margin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="CatalogListItemTextTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/view_catalog_text_margin</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <!-- 画面：カタログ一覧 End -->
+
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- 画面：カタログ Start -->
+
+    <style name="CatalogNavigationTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@color/bg_navi</item>
+    </style>
+
+    <style name="CatalogToolbarTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@color/bg_navi</item>
+    </style>
+
+    <style name="CatalogPagingToolbarTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="CatalogFunctionButtonLayout">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/toolbar_button</item>
+    </style>
+
+    <style name="CatalogFunctionButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <!-- 画面：カタログ End -->
+
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- 画面：ヘルプ Start -->
+    <style name="BackBorderLayer.Gray.HelpContents">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ViewBorderLayer.White.HelpRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="HelpItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="HelpItem.Image">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="HelpItem.Text">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">85dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+    <!-- 画面：ヘルプ End -->
+
+
+    <!-- 画面：インフォメーション Start -->
+    <style name="BackBorderLayer.Black.InfoTable">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginRight">35dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginLeft">35dp</item>
+    </style>
+
+    <style name="ViewBorderLayer.White.InfoTable">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="InfoView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="InfoView.Text">
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="InfoAccessButton">
+        <item name="android:layout_width">220dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="CacheClearButton">
+        <item name="android:layout_width">85dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+    <!-- 画面：インフォメーション End -->
+
+    <!-- 画面：プレビュー Start -->
+    <style name="PreviewLoginText">
+        <item name="android:ems">8</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:textColor">@color/input_text</item>
+        <item name="android:textSize">@dimen/prev_text_size_sp</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+    <!-- 画面：プレビュー End -->
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border_selector"
+    android:orientation="vertical">
+
+    <!--<View
+        android:layout_width="match_parent"
+        android:background="@drawable/dash_line"
+        android:layout_height="@dimen/dash_line_height"
+        android:id="@+id/line"></View>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height">
+
+        <ImageView
+            android:id="@+id/icon_new"
+            android:layout_width="@dimen/icon_new"
+            android:layout_height="@dimen/icon_new"
+            android:src="@drawable/new_icon" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_left_25"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/padding_60"
+            android:paddingTop="@dimen/padding_5"
+            android:paddingBottom="@dimen/padding_5">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title Title Title Title Title Title Title Title Title Title Title Title Title Title Title Title Title Title Title Title Title "
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/title_text_size" />
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:layout_alignParentBottom="true"
+                android:text="Date"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/date_text_size" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/icon_right"
+            android:layout_width="@dimen/icon_right"
+            android:layout_height="@dimen/icon_right"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_left_10"
+            android:layout_marginRight="@dimen/margin_left_10"
+            android:background="#999"
+            android:scaleType="centerCrop" />
+    </RelativeLayout>
+</LinearLayout>

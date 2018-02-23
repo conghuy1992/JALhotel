@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#1e1e1e"
+    android:gravity="center_vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:id="@+id/icon"
+        android:layout_gravity="center_vertical|right"
+        android:scaleType="fitCenter"
+        android:layout_marginRight="10dp" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="48dip"
+        android:paddingLeft="6dip"
+        android:paddingRight="6dip"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textIsSelectable="false"
+        android:textSize="16sp"
+        android:layout_weight="1"
+        android:ellipsize="end" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="17dp"
+        android:id="@+id/arrow"
+        android:src="@drawable/mapicon_arrow_open"
+        android:layout_marginLeft="10dp"
+        android:scaleType="fitCenter" />
+
+</LinearLayout>
+
+
+<!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/layout/view_map_side_list_item.xml -->

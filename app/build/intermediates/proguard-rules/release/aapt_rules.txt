@@ -1,0 +1,237 @@
+# view res/layout/abc_alert_dialog_material.xml #generated:130
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:27
+-keep class android.support.v7.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_mode_bar.xml #generated:19
+# view res/layout/abc_screen_toolbar.xml #generated:43
+-keep class android.support.v7.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.internal.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# view res/layout/abc_screen_content_include.xml #generated:19
+-keep class android.support.v7.internal.widget.ContentFrameLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:48
+-keep class android.support.v7.internal.widget.DialogTitle { <init>(...); }
+
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:23
+-keep class android.support.v7.internal.widget.FitWindowsFrameLayout { <init>(...); }
+
+# view res/layout/abc_dialog_title_material.xml #generated:22
+# view res/layout/abc_screen_simple.xml #generated:17
+-keep class android.support.v7.internal.widget.FitWindowsLinearLayout { <init>(...); }
+
+# view res/layout/abc_action_mode_close_item_material.xml #generated:17
+# view res/layout/abc_search_dropdown_item_icons_2line.xml #generated:27
+# view res/layout/abc_search_dropdown_item_icons_2line.xml #generated:37
+# view res/layout/abc_search_dropdown_item_icons_2line.xml #generated:48
+# view res/layout/abc_search_view.xml #generated:116
+# view res/layout/abc_search_view.xml #generated:128
+# view res/layout/abc_search_view.xml #generated:38
+# view res/layout/abc_search_view.xml #generated:60
+# view res/layout/abc_search_view.xml #generated:97
+-keep class android.support.v7.internal.widget.TintImageView { <init>(...); }
+
+# view res/layout/abc_screen_simple.xml #generated:25
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
+-keep class android.support.v7.internal.widget.ViewStubCompat { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# view res/layout/activity_message_list_sdk.xml #generated:15
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:78
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:36
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# view AndroidManifest.xml #generated:173
+-keep class com.baristapushsdk.gcm.GcmBroadcastReveiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:184
+-keep class com.baristapushsdk.gcm.GcmIntentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:212
+-keep class com.baristapushsdk.ui.MessageDetailSDK { <init>(...); }
+
+# view AndroidManifest.xml #generated:207
+-keep class com.baristapushsdk.ui.MessageListSDK { <init>(...); }
+
+# view AndroidManifest.xml #generated:224
+-keep class com.baristapushsdk.ui.ReadMoreActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:145
+-keep class com.google.android.gms.ads.AdActivity { <init>(...); }
+
+# view res/layout/view_map_content.xml #generated:20
+-keep class com.google.android.gms.maps.SupportMapFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:159
+-keep class com.tapjoy.TJAdUnitView { <init>(...); }
+
+# view AndroidManifest.xml #generated:150
+-keep class com.tapjoy.TJCOffersWebView { <init>(...); }
+
+# view AndroidManifest.xml #generated:153
+-keep class com.tapjoy.TapjoyFullScreenAdWebView { <init>(...); }
+
+# view AndroidManifest.xml #generated:156
+-keep class com.tapjoy.TapjoyVideoView { <init>(...); }
+
+# view AndroidManifest.xml #generated:164
+-keep class com.tapjoy.mraid.view.ActionHandler { <init>(...); }
+
+# view AndroidManifest.xml #generated:167
+-keep class com.tapjoy.mraid.view.Browser { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class hotelokura.jalhotels.oneharmony.MainApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:133
+-keep class hotelokura.jalhotels.oneharmony.activity.ActivityLogin { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class hotelokura.jalhotels.oneharmony.activity.ActivityReservation { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class hotelokura.jalhotels.oneharmony.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class hotelokura.jalhotels.oneharmony.activity.bookmark.BookmarkActivity { <init>(...); }
+
+# view res/layout/activity_bookmark.xml #generated:7
+-keep class hotelokura.jalhotels.oneharmony.activity.bookmark.BookmarkNavigationView { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class hotelokura.jalhotels.oneharmony.activity.catalog.CatalogActivity { <init>(...); }
+
+# view res/layout/activity_catalog.xml #generated:58
+-keep class hotelokura.jalhotels.oneharmony.activity.catalog.CatalogLinkIndicatorView { <init>(...); }
+
+# view res/layout/activity_catalog.xml #generated:17
+-keep class hotelokura.jalhotels.oneharmony.activity.catalog.CatalogNavigationView { <init>(...); }
+
+# view res/layout/activity_catalog.xml #generated:11
+-keep class hotelokura.jalhotels.oneharmony.activity.catalog.CatalogPagerEventPanel { <init>(...); }
+
+# view res/layout/activity_catalog.xml #generated:6
+-keep class hotelokura.jalhotels.oneharmony.activity.catalog.CatalogPagerView { <init>(...); }
+
+# view res/layout/activity_catalog.xml #generated:79
+-keep class hotelokura.jalhotels.oneharmony.activity.catalog.CatalogPagingInfoView { <init>(...); }
+
+# view res/layout/activity_catalog.xml #generated:41
+-keep class hotelokura.jalhotels.oneharmony.activity.catalog.CatalogPagingTextView { <init>(...); }
+
+# view res/layout/activity_catalog.xml #generated:22
+-keep class hotelokura.jalhotels.oneharmony.activity.catalog.CatalogToolbarView { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class hotelokura.jalhotels.oneharmony.activity.cataloglist.CatalogListActivity { <init>(...); }
+
+# view res/layout/activity_cataloglist.xml #generated:27
+-keep class hotelokura.jalhotels.oneharmony.activity.cataloglist.CatalogListGridView { <init>(...); }
+
+# view res/layout/activity_cataloglist.xml #generated:7
+# view res/layout/activity_webtop.xml #generated:8
+-keep class hotelokura.jalhotels.oneharmony.activity.cataloglist.CatalogListNavigationView { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class hotelokura.jalhotels.oneharmony.activity.coverflow.CoverFlowActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:114
+-keep class hotelokura.jalhotels.oneharmony.activity.help.HelpActivity { <init>(...); }
+
+# view res/layout/activity_help.xml #generated:7
+-keep class hotelokura.jalhotels.oneharmony.activity.help.HelpNavigationView { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class hotelokura.jalhotels.oneharmony.activity.info.InfoActivity { <init>(...); }
+
+# view res/layout/activity_info.xml #generated:7
+-keep class hotelokura.jalhotels.oneharmony.activity.info.InfoNavigationView { <init>(...); }
+
+# view res/layout/activity_info.xml #generated:93
+-keep class hotelokura.jalhotels.oneharmony.activity.info.InfoToolbarView { <init>(...); }
+
+# view AndroidManifest.xml #generated:123
+-keep class hotelokura.jalhotels.oneharmony.activity.map.MapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class hotelokura.jalhotels.oneharmony.activity.news.NewsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:141
+-keep class hotelokura.jalhotels.oneharmony.activity.news.NewsDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class hotelokura.jalhotels.oneharmony.activity.splash.SplashActivity { <init>(...); }
+
+# view res/layout/activity_web.xml #generated:8
+-keep class hotelokura.jalhotels.oneharmony.activity.web.WebNavigationView { <init>(...); }
+
+# view res/layout/activity_web.xml #generated:21
+-keep class hotelokura.jalhotels.oneharmony.activity.web.WebToolbarView { <init>(...); }
+
+# view AndroidManifest.xml #generated:120
+-keep class hotelokura.jalhotels.oneharmony.activity.web.WebViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:126
+-keep class hotelokura.jalhotels.oneharmony.activity.webtop.WebTopActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class hotelokura.jalhotels.oneharmony.brand_preview.PreviewLoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class hotelokura.jalhotels.oneharmony.brand_preview.PreviewMenuActivity { <init>(...); }
+
+# view res/layout/view_map_main.xml #generated:7
+-keep class hotelokura.jalhotels.oneharmony.lib.actionscontentview.ActionsContentView { <init>(...); }
+
+# view res/layout/view_map_content.xml #generated:7
+-keep class hotelokura.jalhotels.oneharmony.lib.slidinguppanel.SlidingUpPanelLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:201
+-keep class hotelokura.jalhotels.oneharmony.receiver.TestReceiver { <init>(...); }
+
+# view res/layout/view_catalog_navigation.xml #generated:11
+# view res/layout/view_catalog_navigation.xml #generated:22
+-keep class hotelokura.jalhotels.oneharmony.view.FunctionButtonLayout { <init>(...); }
+
+# view res/layout/view_cataloglist_item.xml #generated:20
+# view res/layout/view_cataloglist_item_no_text.xml #generated:21
+-keep class hotelokura.jalhotels.oneharmony.view.ImageIndicatorView { <init>(...); }
+
+# onClick res/layout/activity_news_detail.xml #generated:51
+-keepclassmembers class * { *** onClickBackToList(...); }
+
+# onClick res/layout/activity_news_detail.xml #generated:77
+-keepclassmembers class * { *** onClickGoBack(...); }
+
+# onClick res/layout/activity_news_detail.xml #generated:88
+-keepclassmembers class * { *** onClickGoForward(...); }
+
+# onClick res/layout/activity_news_detail.xml #generated:107
+-keepclassmembers class * { *** onClickOpenApp(...); }
+
+# onClick res/layout/activity_news_detail.xml #generated:99
+-keepclassmembers class * { *** onClickReload(...); }
+

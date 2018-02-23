@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <!-- ボタンの形状 -->
+        <shape android:shape="oval">
+            <!-- ボタンの色 -->
+            <solid android:color="#88000000"/>
+            <!-- ボタンの枠線 -->
+            <!--<stroke android:width="1dp" android:color="#999999"/>-->
+            <!-- ボタンの角の半径 -->
+            <!-- <corners android:radius="16dp"/> -->
+            <!-- ボタン内の余白 -->
+            <padding android:top="8dp" android:left="8dp" android:bottom="8dp" android:right="8dp"/>
+        </shape>
+    </item>
+</selector>
+<!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/drawable/button_news_back.xml -->

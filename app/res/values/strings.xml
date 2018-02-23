@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 名前は「app.name」としても、javaソースでは「app_name」と変換されるらしい -->
+<resources>
+
+    <string name="app_name">One Harmony</string>
+    <string name="app_id"></string>
+
+    <string name="action_settings">Settings</string>
+    <string name="barista_copyright">©2014 BARiSTA Co.,Ltd.</string>
+
+    <!-- 画面：共通 Strat -->
+    <string name="button_back">Back</string>
+    <!-- Back -->
+    <string name="button_home">home</string>
+    <!-- Home -->
+    <string name="button_help">Help</string>
+    <!-- Help -->
+    <string name="title_help">Help</string>
+    <!-- Help -->
+    <string name="title_info">Info</string>
+    <!-- Information -->
+    <string name="title_browser"></string>
+    <!-- Browser -->
+    <string name="title_bookmark">Bookmark</string>
+    <!-- Bookmark -->
+
+    <string name="cancel">Cancel</string>
+    <!-- Cancel -->
+    <string name="delete">Delete</string>
+    <string name="close">Close</string>
+    <!-- close -->
+    <string name="ok">Ok</string>
+    <!-- ok -->
+    <!-- 画面：共通 End -->
+
+
+    <!-- 画面：エラーメッセージ Strat -->
+    <string name="err_title">Error</string>
+    <string name="err_button_retry">Reconnect</string>
+    <string name="err_button_finish">Close App</string>
+    <string name="err_not_connected">No Internet connection</string>
+    <string name="err_not_found">Cannot retrieve the data</string>
+    <string name="err_status_server">Cannot retrieve the data</string>
+    <string name="err_status_url">Cannot retrieve the data</string>
+    <string name="err_status_network">Cannot retrieve the data</string>
+    <string name="err_status_unkown">Cannot retrieve the data</string>
+    <!-- 画面：エラーメッセージ  End -->
+
+
+    <!-- 画面：カタログ Strat -->
+    <string name="catalog_toolbaricon_contents">Content</string>
+    <string name="catalog_toolbaricon_thumbnail">Thumbnail</string>
+    <string name="catalog_toolbaricon_bookmark">Bookmark</string>
+    <string name="catalog_toolbaricon_sns">SNS</string>
+    <string name="catalog_toolbaricon_cart">Reservation</string>
+    <string name="catalog_toolbaricon_building">Link</string>
+    <string name="catalog_toolbaricon_open_to">Link</string>
+    <string name="catalog_toolbaricon_map">Map</string>
+    <string name="open_page_left">Open link on the left</string>
+    <!-- Open left page's -->
+    <string name="open_page_right">Open link on the right</string>
+    <!-- Open right page's -->
+    <string name="text_tab_down">∨</string>
+    <string name="text_tab_up">∧</string>
+    <string name="text_page">page</string>
+    <!-- 画面：カタログ End -->
+
+
+    <!-- 画面：しおり Strat -->
+    <string name="bookmark_button_add">＋</string>
+    <!-- + -->
+    <!-- 画面：しおり End -->
+
+
+    <!-- 画面：ヘルプ Strat -->
+    <string name="helppage_1_desc">指タップ</string>
+    <string name="helppage_1">Tap once to see the menu and double tap to zoom out.</string>
+    <string name="helppage_2_desc">ドラックスクロール</string>
+    <string name="helppage_2">Use one finger to scroll the zoomed page.</string>
+    <string name="helppage_3_desc">ドラックページめくり</string>
+    <string name="helppage_3">Drag to the left or right to turn over the page.</string>
+    <string name="helppage_5_desc">タップページめくり</string>
+    <string name="helppage_5">Tap at both edges of the screen to turn over the page.</string>
+    <string name="helppage_6_desc">ピンチ</string>
+    <string name="helppage_6">Touch the screen with two or more fingers, and then move the fingers toward each other (pinch) or away from each other (stretch) to zoom in or out.</string>
+    <string name="helpicon_x4_100_desc">目次ボタン</string>
+    <string name="helpicon_x4_100">[Content] Select the title to go to the selected page.</string>
+    <string name="helpicon_x2_100_desc">サムネイルボタン</string>
+    <string name="helpicon_x2_100">[Thumbnail] Select the compressed image to see the entire page.</string>
+    <string name="help_03_desc">Bookmark</string>
+    <string name="help_03">[Bookmark] You can save your favorite pages.</string>
+    <string name="help_09_desc">シェアボタン</string>
+    <string name="help_09">[Share] You can share and recommend this app to others.</string>
+    <string name="helpicon_x3_100_desc">動画ボタン</string>
+    <string name="helpicon_x3_100">[Movie] You can watch video on the browser.</string>
+    <string name="help_15_desc">Map</string>
+    <string name="help_15">[Map] Click this button to go to the map page.</string>
+    <string name="help_14_desc">問合せボタン</string>
+    <string name="help_14">[Inquiry] You can access the inquiry page by clicking this icon.</string>
+    <string name="help_07_desc">Reservation</string>
+    <string name="help_07">[Reservation] You can reserve us on your browser.</string>
+    <string name="help_07_1_desc">外部リンク</string>
+    <string name="help_07_1">[External Link] You can go to an external linked page on your browser.</string>
+    <string name="help_11_desc">Detail</string>
+    <string name="help_11">[Detail] You can see the linked page in more details on your browser.</string>
+    <string name="help_07_2_desc">ホームボタン</string>
+    <string name="help_07_2">[Back] You can go back to the previous page by clicking this icon.</string>
+    <string name="helpicon_right_left_desc">ページ移動ボタン</string>
+    <string name="helpicon_right_left">Tap the arrow of the direction you wish to turn over the page.</string>
+    <string name="helpicon_pagestartend_desc">末尾ページ移動ボタン</string>
+    <string name="helpicon_pagestartend">Tap the arrow of the direction you wish to go to the first or last page.</string>
+    <!-- 画面：ヘルプ End -->
+
+
+    <!-- 画面：インフォメーション Strat -->
+    <string name="info_access">Accessing more content info</string>
+    <!-- Detailed infomation of contents -->
+    <string name="info_button_cache_clear">Clear catche</string>
+    <string name="delete_cache">Clear catche</string>
+    <!-- Delete cache -->
+    <string name="delete_cache_message">Delete all files</string>
+    <!-- Delete cache message -->
+    <string name="delete_cache_execute">Deleting</string>
+    <!-- Delete cache execute -->
+    <string name="delete_cache_complete">All files have been deleted. If the display do not work properly, pelase go back to home or restart your application.</string>
+    <!-- Delete cache complete -->
+    <!-- 画面：インフォメーション End -->
+
+    <!-- 画面：マップ Strat -->
+    <string name="map_search">Search</string>
+    <string name="map_menu_category_menu">Menu</string>
+    <string name="map_menu_category_list">List</string>
+    <string name="map_menu_back">Back</string>
+    <string name="map_menu_show_map">Search from the map</string>
+    <string name="map_menu_loc_search">Look for places nearby</string>
+    <string name="map_storelist_back_to_top">Back to top of the list</string>
+    <string name="map_storelist_back"></string>
+    <string name="map_info_addr">Address</string>
+    <string name="map_info_phone">Phone</string>
+    <string name="map_info_website">Website</string>
+    <string name="map_info_catalog">Catalog</string>
+    <string name="map_loc_search_title">Look for places nearby</string>
+    <string name="map_toast_no_catalog">Cannot find catalog</string>
+    <string name="map_toast_getloc_now">Finding your current location</string>
+    <string name="map_toast_getloc_fail">Fail to find your location</string>
+    <string name="map_toast_getloc_unavailable">Cannot find your location</string>
+    <string name="map_toast_unavailable">Map cannot be used</string>
+    <string name="map_toast_no_address">Address cannot be found</string>
+    <string name="map_toast_addr_search_fail">Failed to search</string>
+    <string name="map_toast_navi_unavailable">Cannot use the navi because current location cannot be found</string>
+    <string name="map_toast_loc_search_unavailable">Cannot show because current location cannot be found</string>
+    <!-- 画面：マップ End -->
+
+    <!-- 画面：プレビュー Strat -->
+    <string name="prev_progress_login">Logging in</string>
+    <string name="prev_progress_start">Preview</string>
+    <string name="prev_toast_get_url_fail">Failed to access your account</string>
+    <string name="prev_toast_connect_fail">Could not connect to sever</string>
+    <string name="prev_toast_authentication_fail">The password or email address you entered is incorrect</string>
+    <string name="prev_hint_mail">Email Address</string>
+    <string name="prev_hint_pass">Password</string>
+    <string name="prev_btn_login">LOG IN</string>
+    <string name="prev_btn_logout">LOG OUT</string>
+    <string name="prev_notify_title_mark">※</string>
+    <string name="prev_notify_title">Note</string>
+    <string name="prev_notify_text_mark">・</string>
+    <string name="prev_notify_text1">Press the preview button after updating.</string>
+    <string name="prev_notify_text2">Application icon would not be displayed.</string>
+    <!-- 画面：プレビュー End -->
+
+    <!-- 画面：ニュース Start -->
+    <string name="news_title">News</string>
+    <string name="news_close">Close</string>
+    <string name="back_button">&lt;</string>
+    <!-- 画面：ニュース End -->
+
+    <!-- アイコン Strat -->
+    <string name="description_title"></string>
+    <string name="description_button"></string>
+    <string name="description_baricata_logo"></string>
+    <string name="description_seekicon_top"></string>
+    <string name="description_seekicon_prev"></string>
+    <string name="description_seekicon_end"></string>
+    <string name="description_seekicon_next"></string>
+    <string name="description_toolbaricon_information"></string>
+    <string name="description_toolbaricon_open_to"></string>
+    <string name="description_toolbaricon_prev"></string>
+    <string name="description_toolbaricon_next"></string>
+    <string name="description_toolbaricon_stop"></string>
+    <string name="description_toolbaricon_reload"></string>
+    <!-- アイコン End -->
+
+    <string name="remember">Remember me</string>
+    <string name="loginname">Email or Membership number</string>
+    <string name="pass">Password</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="notify"> Please enter your One Harmony membership number or register email address as Login Name</string>
+    <string name="forgotpw">Forgot Your Password</string>
+    <string name="join">Join Us Now</string>
+    <string name="reservation">Reservation</string>
+    <string name="bookstay">Book your stay</string>
+    <string name="area">- Select Area -</string>
+    <string name="country">- Select Country -</string>
+    <string name="hotel">- Select Hotel -</string>
+    <string name="search">Search</string>
+    <string name="done">Done</string>
+    <string name="modidy">Modify or Cancel a Reservation</string>
+    <string name="customer_login_alert">Login Name is a required field.Please re-enter.\n
+Password is a required field. Please re-enter.</string>
+    <string name="customer_login_fail">Login failed.Please try again</string>
+
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="1dp">
+        <shape android:shape="line">
+            <stroke
+                android:color="#232323"
+                android:width="1dp"
+                />
+            <size
+                android:height="2dp"
+                />
+        </shape>
+    </item>
+    <item android:top="1dp">
+        <shape android:shape="line">
+            <stroke
+                android:color="#151515"
+                android:width="1dp"
+                />
+            <size
+                android:height="2dp"
+                />
+        </shape>
+    </item>
+</layer-list>
+<!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/drawable/map_side_divider.xml -->

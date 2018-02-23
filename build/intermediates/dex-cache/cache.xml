@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/exploded-aar/source/BaristaPushNewSDK/unspecified/jars/libs/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-5f098ffc1db705096c15b09c1adb7cf6747bcdda.jar" />
+    </item>
+    <item
+        jar="/Users/barista7/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6-f2ecb96753a55f72fc1b65ca9068fb12a1ba95b5.jar" />
+    </item>
+    <item
+        jar="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/pre-dexed/debug/classes-fb2d83557a33ca8fa69649cbd5f2e059613eb342.jar" />
+    </item>
+    <item
+        jar="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/exploded-aar/source.libraries/pullToRefreshLib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="5eae4b9c82e7f9a4583202f8165ef98694d92fb0">
+        <dex dex="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/pre-dexed/debug/classes-cc3bb031b7643831e06d45f07ee46900d6ebe2d0.jar" />
+    </item>
+    <item
+        jar="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/exploded-aar/source.libraries/google-play-services_lib/unspecified/jars/libs/google-play-services.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/pre-dexed/debug/google-play-services-f0440f191a7e82587c8faf11e8c080e23b742e27.jar" />
+    </item>
+    <item
+        jar="/Users/barista7/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.9-104b37805db3292f149c5fce10ee003e9fc0e51a.jar" />
+    </item>
+    <item
+        jar="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-0651867cf8108a818c0c196a0f12ea6873ea3f70.jar" />
+    </item>
+    <item
+        jar="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/pre-dexed/debug/classes-220dbd89a581a123ddd6ef36a2a991bbe4768cde.jar" />
+    </item>
+    <item
+        jar="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/exploded-aar/source/BaristaPushNewSDK/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="659e554505c2321bf5a67a4e28fb83055c1783bc">
+        <dex dex="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/pre-dexed/debug/classes-d73b19bdc9e596d65247ac49ad1abc7452996d22.jar" />
+    </item>
+    <item
+        jar="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/exploded-aar/source.libraries/google-play-services_lib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="c1268cb64b3d29457000b41484e3cc09b7a6772e">
+        <dex dex="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/pre-dexed/debug/classes-408dca245646489f153b5adb08843eda949df5fa.jar" />
+    </item>
+    <item
+        jar="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/exploded-aar/source/BaristaPushNewSDK/unspecified/jars/libs/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3-2a81916e9d5219016d2076b9d2fed8b10b853856.jar" />
+    </item>
+    <item
+        jar="/Users/barista7/Desktop/baricata_sekisui_android/app/build/intermediates/exploded-aar/baricata_sekisui_android/BaristaPushNewSDK/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="1cc28d68687a94d20c87db827fc6b49310f8f080">
+        <dex dex="/Users/barista7/Desktop/baricata_sekisui_android/app/build/intermediates/pre-dexed/debug/classes-798774701c241a8e5bae00aef2aa85d54f25010f.jar" />
+    </item>
+    <item
+        jar="/Users/barista7/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-2eca59fb68601911db2f211b25ca1a3249966ba7.jar" />
+    </item>
+    <item
+        jar="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/pre-dexed/debug/classes-1c9c317f9d7b2a38b970d1ef0670b574138b6add.jar" />
+    </item>
+    <item
+        jar="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/libs/tapjoyconnectlibrary.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="e42c11555b01a2bd6b7b6b4d0dd8c612cd61374f">
+        <dex dex="/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/pre-dexed/debug/tapjoyconnectlibrary-71f5eee84a9665bf6c797b09ca327c4b80ec318c.jar" />
+    </item>
+
+</items>

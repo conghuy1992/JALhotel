@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/content_read_more"
+        android:layout_marginBottom="@dimen/margin_bottom_10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/content_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/image_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#fff"/>
+
+                <ImageView
+                    android:id="@+id/icon_new"
+                    android:layout_width="@dimen/detail_icon_new"
+                    android:layout_height="@dimen/detail_icon_new"
+                    android:src="@drawable/new_icon"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/content_image"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/padding_10"
+                android:paddingRight="@dimen/padding_10"
+                android:paddingBottom="@dimen/padding_10">
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="@dimen/detail_title_text_size" />
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_top_7"
+                    android:layout_marginTop="@dimen/margin_top_7"
+                    android:textColor="#000"
+                    android:textSize="@dimen/detail_date_text_size" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tvMessageContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="@dimen/detail_date_text_size" />
+
+                    <!--<LinearLayout
+                        android:id="@+id/text_count"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/image_count_height"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center"
+                        android:orientation="horizontal"></LinearLayout>-->
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/content_read_more"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/read_more_height"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/button_readmore"
+            android:layout_width="@dimen/btn_read_more_width"
+            android:layout_height="@dimen/btn_read_more_height"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/read_more_selector"
+            android:text="@string/read_more"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="@dimen/read_text_size"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="@dimen/btn_back"
+            android:layout_height="@dimen/btn_back"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin_bottom_10"
+            android:layout_marginLeft="@dimen/margin_left_10"
+            android:background="@drawable/back_selector" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/loadingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#55000000"
+        android:clickable="true"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminate="false" />
+    </RelativeLayout>
+</RelativeLayout>
+<!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/BaristaPushNewSDK/src/main/res/layout/activity_message_detail_sdk.xml --><!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/exploded-aar/source/BaristaPushNewSDK/unspecified/res/layout/activity_message_detail_sdk.xml -->

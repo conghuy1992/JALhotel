@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">   
+    <gradient
+        android:startColor="#20000000"
+        android:endColor="@android:color/transparent"
+        android:angle="90" >
+    </gradient>
+</shape>
+<!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/drawable/above_shadow.xml -->

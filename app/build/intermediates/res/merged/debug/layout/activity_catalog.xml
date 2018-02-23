@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <hotelokura.jalhotels.oneharmony.activity.catalog.CatalogPagerView
+        android:id="@+id/pagerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <hotelokura.jalhotels.oneharmony.activity.catalog.CatalogPagerEventPanel
+        android:id="@+id/eventPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" />
+
+    <hotelokura.jalhotels.oneharmony.activity.catalog.CatalogNavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <hotelokura.jalhotels.oneharmony.activity.catalog.CatalogToolbarView
+        android:id="@+id/toolbarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/toolbarView"
+        android:layout_alignWithParentIfMissing="true"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/pagingTextWeihtView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <hotelokura.jalhotels.oneharmony.activity.catalog.CatalogPagingTextView
+            android:id="@+id/pagingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="110dp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <hotelokura.jalhotels.oneharmony.activity.catalog.CatalogLinkIndicatorView
+            android:id="@+id/linkIndicator"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/toolbarView"
+        android:layout_below="@+id/navigationView"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/pagingInfoWeiht1View"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+        <hotelokura.jalhotels.oneharmony.activity.catalog.CatalogPagingInfoView
+            android:id="@+id/pagingInfoView"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+
+        <View
+            android:id="@+id/pagingInfoWeiht2View"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5" />
+    </LinearLayout>
+
+</RelativeLayout>
+<!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/layout/activity_catalog.xml -->

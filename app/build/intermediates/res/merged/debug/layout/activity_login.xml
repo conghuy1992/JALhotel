@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frheader"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/imgback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="20dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/toolbaricon_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/login" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imgheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frheader"
+        android:adjustViewBounds="true"
+        android:src="@drawable/header_logo" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imgheader"
+        android:background="#e6d3ac">
+
+        <TextView
+            android:id="@+id/txtnotify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/userpass"
+            android:layout_marginRight="@dimen/userpass"
+            android:layout_marginTop="15dp"
+            android:text="@string/notify"
+            android:textColor="#000000"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/userpass"
+            android:layout_marginRight="@dimen/userpass"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/round_edittext"
+            android:hint="@string/loginname"
+            android:imeOptions="actionNext"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/userpass"
+            android:layout_marginRight="@dimen/userpass"
+            android:layout_marginTop="@dimen/margintop"
+            android:background="@drawable/round_edittext"
+            android:hint="@string/pass"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="14dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText2"
+            android:layout_marginLeft="@dimen/userpass"
+            android:layout_marginTop="@dimen/margintop"
+            android:button="@drawable/custom_checkbox"
+            android:paddingLeft="10dp"
+            android:text="@string/remember"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/checkBox"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/userpass"
+            android:layout_marginRight="@dimen/userpass"
+            android:layout_marginTop="@dimen/margintop"
+            android:background="#875914"
+            android:text="@string/login" />
+
+        <TextView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/button2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/userpass"
+            android:layout_marginRight="@dimen/userpass"
+            android:layout_marginTop="15dp"
+            android:background="#a8a8a8"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/txtforgotpw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margintop"
+            android:gravity="center"
+            android:text="@string/forgotpw"
+            android:textColor="#3a91e8" />
+
+        <TextView
+            android:id="@+id/txtjoinusnow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtforgotpw"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margintop"
+            android:gravity="center"
+            android:text="@string/join"
+            android:textColor="#3a91e8" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgfinish"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/reservation_close_arrow"
+        android:visibility="gone" />
+
+</RelativeLayout>
+<!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/layout/activity_login.xml -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <hotelokura.jalhotels.oneharmony.lib.slidinguppanel.SlidingUpPanelLayout
+        android:id="@+id/sliding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- navigation map -->
+        <RelativeLayout
+            android:id="@+id/content"
+            android:background="@android:color/white"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <fragment
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                class="com.google.android.gms.maps.SupportMapFragment"
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/transparent_img"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentLeft="false"
+                android:src="@android:color/transparent" />
+
+        </RelativeLayout>
+
+        <!-- slideup -->
+        <include layout="@layout/view_map_slideup"/>
+
+    </hotelokura.jalhotels.oneharmony.lib.slidinguppanel.SlidingUpPanelLayout>
+</RelativeLayout>
+<!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/layout/view_map_content.xml -->

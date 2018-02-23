@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbarLayout"
+    style="@style/ToolbarTheme" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/infoAccessButton"
+            style="@style/InfoAccessButton"
+            android:text="@string/info_access" />
+    </LinearLayout>
+
+    <View
+        style="@style/ToolbarBoundaryTheme"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>
+<!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/layout/view_info_toolbar.xml -->

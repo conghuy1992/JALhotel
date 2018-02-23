@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_app" >
+
+    <hotelokura.jalhotels.oneharmony.activity.help.HelpNavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/navigationView" >
+
+        <!-- ScrollView直下のmarginは正しく反映されない(andorid2.3.3以下)ので、1階層深くする -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <LinearLayout
+                style="@style/BackBorderLayer.Gray.HelpContents"
+                android:layout_margin="10dp" >
+
+                <RelativeLayout style="@style/ViewBorderLayer.White.HelpRow" >
+
+                    <ImageView
+                        style="@style/HelpItem.Image"
+                        android:contentDescription="@string/helppage_1_desc"
+                        android:src="@drawable/helppage_1" >
+                    </ImageView>
+
+                    <TextView
+                        style="@style/HelpItem.Text"
+                        android:text="@string/helppage_1" >
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/ViewBorderLayer.White.HelpRow" >
+
+                    <ImageView
+                        style="@style/HelpItem.Image"
+                        android:contentDescription="@string/helppage_3_desc"
+                        android:src="@drawable/helppage_3" >
+                    </ImageView>
+
+                    <TextView
+                        style="@style/HelpItem.Text"
+                        android:text="@string/helppage_3" >
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/ViewBorderLayer.White.HelpRow" >
+
+                    <ImageView
+                        style="@style/HelpItem.Image"
+                        android:contentDescription="@string/helppage_5_desc"
+                        android:src="@drawable/helppage_5" >
+                    </ImageView>
+
+                    <TextView
+                        style="@style/HelpItem.Text"
+                        android:text="@string/helppage_5" >
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/ViewBorderLayer.White.HelpRow" >
+
+                    <ImageView
+                        style="@style/HelpItem.Image"
+                        android:contentDescription="@string/helppage_6_desc"
+                        android:src="@drawable/helppage_6" >
+                    </ImageView>
+
+                    <TextView
+                        style="@style/HelpItem.Text"
+                        android:text="@string/helppage_6" >
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/ViewBorderLayer.White.HelpRow" >
+
+                    <ImageView
+                        style="@style/HelpItem.Image"
+                        android:contentDescription="@string/helppage_2_desc"
+                        android:src="@drawable/helppage_2" >
+                    </ImageView>
+
+                    <TextView
+                        style="@style/HelpItem.Text"
+                        android:text="@string/helppage_2" >
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/ViewBorderLayer.White.HelpRow" android:id="@+id/content">
+
+                    <ImageView
+                        style="@style/HelpItem.Image"
+                        android:contentDescription="@string/helpicon_x4_100_desc"
+                        android:src="@drawable/toolbaricon_contents_help" >
+                    </ImageView>
+
+                    <TextView
+                        style="@style/HelpItem.Text"
+                        android:text="@string/helpicon_x4_100" >
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/ViewBorderLayer.White.HelpRow" android:id="@+id/thumbnail">
+
+                    <ImageView
+                        style="@style/HelpItem.Image"
+                        android:contentDescription="@string/helpicon_x2_100_desc"
+                        android:src="@drawable/toolbaricon_thumbnail_help" >
+                    </ImageView>
+
+                    <TextView
+                        style="@style/HelpItem.Text"
+                        android:text="@string/helpicon_x2_100" >
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/ViewBorderLayer.White.HelpRow" android:id="@+id/bookmark">
+
+                    <ImageView
+                        style="@style/HelpItem.Image"
+                        android:contentDescription="@string/help_03_desc"
+                        android:src="@drawable/toolbaricon_bookmark_help" >
+                    </ImageView>
+
+                    <TextView
+                        style="@style/HelpItem.Text"
+                        android:text="@string/help_03" >
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/ViewBorderLayer.White.HelpRow" android:id="@+id/sns">
+
+                    <ImageView
+                        style="@style/HelpItem.Image"
+                        android:contentDescription="@string/help_09_desc"
+                        android:src="@drawable/toolbaricon_sns_help" >
+                    </ImageView>
+
+                    <TextView
+                        style="@style/HelpItem.Text"
+                        android:text="@string/help_09" >
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/ViewBorderLayer.White.HelpRow" android:id="@+id/movie">
+
+                    <ImageView
+                        style="@style/HelpItem.Image"
+                        android:contentDescription="@string/helpicon_x3_100_desc"
+                        android:src="@drawable/helpicon_x3_100" >
+                    </ImageView>
+
+                    <TextView
+                        style="@style/HelpItem.Text"
+                        android:text="@string/helpicon_x3_100" >
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/ViewBorderLayer.White.HelpRow" android:id="@+id/mail">
+
+                    <ImageView
+                        style="@style/HelpItem.Image"
+                        android:contentDescription="@string/help_14_desc"
+                        android:src="@drawable/toolbaricon_mail_help" >
+                    </ImageView>
+
+                    <TextView
+                        style="@style/HelpItem.Text"
+                        android:text="@string/help_14" >
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/ViewBorderLayer.White.HelpRow" android:id="@+id/cart">
+
+                    <ImageView
+                        style="@style/HelpItem.Image"
+                        android:contentDescription="@string/help_07_desc"
+                        android:src="@drawable/toolbaricon_cart_help" >
+                    </ImageView>
+
+                    <TextView
+                        style="@style/HelpItem.Text"
+                        android:text="@string/help_07" >
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/ViewBorderLayer.White.HelpRow" android:id="@+id/map">
+
+                    <ImageView
+                        style="@style/HelpItem.Image"
+                        android:contentDescription="@string/help_15_desc"
+                        android:src="@drawable/toolbaricon_compass_help" >
+                    </ImageView>
+
+                    <TextView
+                        style="@style/HelpItem.Text"
+                        android:text="@string/help_15" >
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/ViewBorderLayer.White.HelpRow" android:id="@+id/ext_link">
+
+                    <ImageView
+                        style="@style/HelpItem.Image"
+                        android:contentDescription="@string/help_07_1_desc"
+                        android:src="@drawable/toolbaricon_building_help" >
+                    </ImageView>
+
+                    <TextView
+                        style="@style/HelpItem.Text"
+                        android:text="@string/help_07_1" >
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/ViewBorderLayer.White.HelpRow" android:id="@+id/page_link">
+
+                    <ImageView
+                        style="@style/HelpItem.Image"
+                        android:contentDescription="@string/help_11_desc"
+                        android:src="@drawable/toolbaricon_open_to_help" >
+                    </ImageView>
+
+                    <TextView
+                        style="@style/HelpItem.Text"
+                        android:text="@string/help_11" >
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/ViewBorderLayer.White.HelpRow" android:id="@+id/home">
+
+                    <ImageView
+                        style="@style/HelpItem.Image"
+                        android:contentDescription="@string/help_07_2_desc"
+                        android:src="@drawable/toolbaricon_modoru_help" >
+                    </ImageView>
+
+                    <TextView
+                        style="@style/HelpItem.Text"
+                        android:text="@string/help_07_2" >
+                    </TextView>
+                </RelativeLayout>
+
+                <!--<RelativeLayout style="@style/ViewBorderLayer.White.HelpRow" >-->
+
+                    <!--<ImageView-->
+                        <!--style="@style/HelpItem.Image"-->
+                        <!--android:contentDescription="@string/helpicon_right_left_desc"-->
+                        <!--android:src="@drawable/helpicon_right_left" >-->
+                    <!--</ImageView>-->
+
+                    <!--<TextView-->
+                        <!--style="@style/HelpItem.Text"-->
+                        <!--android:text="@string/helpicon_right_left" >-->
+                    <!--</TextView>-->
+                <!--</RelativeLayout>-->
+
+                <!--<RelativeLayout style="@style/ViewBorderLayer.White.HelpRow" >-->
+
+                    <!--<ImageView-->
+                        <!--style="@style/HelpItem.Image"-->
+                        <!--android:contentDescription="@string/helpicon_pagestartend_desc"-->
+                        <!--android:src="@drawable/helpicon_pagestartend" >-->
+                    <!--</ImageView>-->
+
+                    <!--<TextView-->
+                        <!--style="@style/HelpItem.Text"-->
+                        <!--android:text="@string/helpicon_pagestartend" >-->
+                    <!--</TextView>-->
+                <!--</RelativeLayout>-->
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+<!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/layout/activity_help.xml -->

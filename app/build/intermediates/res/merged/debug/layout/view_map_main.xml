@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <hotelokura.jalhotels.oneharmony.lib.actionscontentview.ActionsContentView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/actionsContentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:actions_layout="@layout/view_map_side"
+        app:actions_spacing="@dimen/actions_spacing"
+        app:content_layout="@layout/view_map_content"
+        app:fade_max_value="@integer/default_pref_fade_max_value"
+        app:fade_type="actions"
+        app:fling_duration="@integer/default_pref_fling_delay"
+        app:shadow_drawable="@drawable/shadow"
+        app:shadow_width="@dimen/default_pref_shadow_width" />
+</RelativeLayout>
+<!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/layout/view_map_main.xml -->

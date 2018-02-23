@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-ja/values-ja.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ホームへ移動"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"上へ移動"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完了"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%sと共有"</string>
+    <!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_id">55b0902d866b3d36658b45c6</string>
+    <string name="app_name">One Harmony</string>
+    <string name="area">- Select Area -</string>
+    <string name="bookmark_button_add">＋</string>
+    <string name="bookstay">Book your stay</string>
+    <string name="button_back">戻る</string>
+    <string name="button_help">ヘルプ</string>
+    <string name="button_home">戻る</string>
+    <string name="cancel">キャンセル</string>
+    <string name="catalog_toolbaricon_bookmark">お気に入り</string>
+    <string name="catalog_toolbaricon_building">外部リンク</string>
+    <string name="catalog_toolbaricon_cart">カート</string>
+    <string name="catalog_toolbaricon_contents">目次</string>
+    <string name="catalog_toolbaricon_map">地図</string>
+    <string name="catalog_toolbaricon_open_to">リンク</string>
+    <string name="catalog_toolbaricon_sns">SNS</string>
+    <string name="catalog_toolbaricon_thumbnail">サムネイル</string>
+    <string name="close">閉じる</string>
+    <!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/exploded-aar/source.libraries/google-play-services_lib/unspecified/res/values-ja/values-ja.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Android Wearアプリの更新が必要です。"</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Android Wearアプリを使用するにはアプリの更新が必要です。"</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Android Wearの更新"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Play開発者サービスの有効化"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"このアプリの実行には、Google Play開発者サービスの有効化が必要です。"</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Play開発者サービスの有効化"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"<ns1:g id="APP_NAME">%1$s</ns1:g>によるリクエスト"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Play開発者サービスの入手"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"このアプリの実行にはGoogle Play開発者サービスが必要ですが、お使いの携帯端末にはインストールされていません。"</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"このアプリの実行にはGoogle Play開発者サービスが必要ですが、お使いのタブレットにはインストールされていません。"</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Play開発者サービスの入手"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"指定したアカウントはこの端末上に存在しません。別のアカウントを選択してください。"</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"無効なアカウント"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"アプリではGoogle Play開発者サービスを有効にする必要があります"</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Google Play開発者サービスに接続するには、データ接続が必要です。"</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"ネットワークエラー"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"アプリではGoogle Play開発者サービスをインストールする必要があります"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"アプリではGoogle Play開発者サービスを更新する必要があります"</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Google Play開発者サービスのエラー"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Google Play開発者サービスで原因不明の問題が発生しました。"</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"一部のアプリが使用しているGoogle Play開発者サービスは、お使いの端末ではサポートされていません。詳しくは、端末メーカーまでお問い合わせください。"</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play開発者サービス"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"このアプリの実行には、Google Play開発者サービスの更新が必要です。"</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Play開発者サービスの更新"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"端末で開く"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"ログイン"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Googleでログイン"</string>
+    <!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="country">- Select Country -</string>
+    <string name="customer_login_alert">ログイン名は必須フィールドです。再入力してください。\nパスワードは必須フィールドです。再入力してください。</string>
+    <string name="customer_login_fail">ログインに失敗しました。再度、ログインを行ってください</string>
+    <string name="delete">削除</string>
+    <string name="delete_cache">キャッシュクリア</string>
+    <string name="delete_cache_complete">一時ファイルを削除しました。\n表示が乱れる場合は、ホームに戻るか、アプリケーションを終了してから再実行してください。</string>
+    <string name="delete_cache_execute">削除実行</string>
+    <string name="delete_cache_message">一時ファイルを全て削除します。</string>
+    <string name="description_baricata_logo"/>
+    <string name="description_button"/>
+    <string name="description_seekicon_end"/>
+    <string name="description_seekicon_next"/>
+    <string name="description_seekicon_prev"/>
+    <string name="description_seekicon_top"/>
+    <string name="description_title"/>
+    <string name="description_toolbaricon_information"/>
+    <string name="description_toolbaricon_next"/>
+    <string name="description_toolbaricon_open_to"/>
+    <string name="description_toolbaricon_prev"/>
+    <string name="description_toolbaricon_reload"/>
+    <string name="description_toolbaricon_stop"/>
+    <string name="done">Done</string>
+    <string name="err_button_finish">アプリを終了する</string>
+    <string name="err_button_retry">もう一度接続する</string>
+    <string name="err_not_connected">インターネットに接続できません</string>
+    <string name="err_not_found">最新データの取得ができませんでした</string>
+    <string name="err_status_network">最新データの取得ができませんでした</string>
+    <string name="err_status_server">最新データの取得ができませんでした</string>
+    <string name="err_status_unkown">最新データの取得ができませんでした</string>
+    <string name="err_status_url">最新データの取得ができませんでした</string>
+    <string name="err_title">エラー</string>
+    <string name="forgotpw">パスワードを忘れた場合</string>
+    <string name="gcm_sender_id">599192067986</string>
+    <string name="help_03">【しおり】カタログページの気になったところ、読みかけのところにしおりを挟んで目印とする機能です。</string>
+    <string name="help_03_desc">しおりボタン</string>
+    <string name="help_07">【カート】ブラウザ機能を利用して、ショッピングが行えます。</string>
+    <string name="help_07_1">【外部リンク】ブラウザ機能を利用して、外部サイトへのリンクページの閲覧が出来ます。</string>
+    <string name="help_07_1_desc">外部リンク</string>
+    <string name="help_07_2">【戻る】カタログ一覧ページ（TOPページ）に戻ることが出来ます。</string>
+    <string name="help_07_2_desc">ホームボタン</string>
+    <string name="help_07_desc">カートボタン</string>
+    <string name="help_09">【シェア】このボタンを押すと、facebook、twitter、メールを通して、アプリを薦めることが出来ます。</string>
+    <string name="help_09_desc">シェアボタン</string>
+    <string name="help_11">【リンク】ブラウザ機能を利用して、各ページのリンクページの閲覧が出来ます。</string>
+    <string name="help_11_desc">リンクボタン</string>
+    <string name="help_14">【問合せ】このボタンを押すと、お問合せのページへ移動します。</string>
+    <string name="help_14_desc">問合せボタン</string>
+    <string name="help_15">【マップ】このボタンを押すと、マップページへ移動します。</string>
+    <string name="help_15_desc">マップボタン</string>
+    <string name="helpicon_pagestartend">それぞれの方向の先頭または最後のページをめくります。</string>
+    <string name="helpicon_pagestartend_desc">末尾ページ移動ボタン</string>
+    <string name="helpicon_right_left">矢印のアイコンが示す方向へページをめくります。</string>
+    <string name="helpicon_right_left_desc">ページ移動ボタン</string>
+    <string name="helpicon_x2_100">【サムネイル】カタログのページを縮小してプレビュー表示したものです。サムネイル画像を押すと選択したページへ移動します。</string>
+    <string name="helpicon_x2_100_desc">サムネイルボタン</string>
+    <string name="helpicon_x3_100">【動画】ブラウザ機能を利用して、各コンテンツの紹介動画の閲覧が出来ます。</string>
+    <string name="helpicon_x3_100_desc">動画ボタン</string>
+    <string name="helpicon_x4_100">【目次】目次の各項目を押すと選択したページへ移動します。</string>
+    <string name="helpicon_x4_100_desc">目次ボタン</string>
+    <string name="helppage_1">指で一度画面を軽くたたいてタップすると操作メニューが表示できます。2回タップするとページを拡大します。</string>
+    <string name="helppage_1_desc">指タップ</string>
+    <string name="helppage_2">一本指で拡大画面をドラックしてページをスクロールします</string>
+    <string name="helppage_2_desc">ドラックスクロール</string>
+    <string name="helppage_3">左右にドラッグもしくはフリックをしてページをめくります。</string>
+    <string name="helppage_3_desc">ドラックページめくり</string>
+    <string name="helppage_5">両端をタップしてページをめくります。</string>
+    <string name="helppage_5_desc">タップページめくり</string>
+    <string name="helppage_6">2本指で画面をなぞりながら、間を広げると拡大します、画面をなぞりながら間を縮めると縮小します。</string>
+    <string name="helppage_6_desc">ピンチ</string>
+    <string name="hotel">- Select Hotel -</string>
+    <string name="info_access">コンテンツの詳細情報にアクセス</string>
+    <string name="info_button_cache_clear">cache clear</string>
+    <string name="join">入会</string>
+    <string name="login">ログイン</string>
+    <string name="loginname">メールアドレス、または会員番号</string>
+    <string name="logout">ログアウト</string>
+    <string name="map_info_addr">住所</string>
+    <string name="map_info_catalog">カタログを見る</string>
+    <string name="map_info_phone">電話</string>
+    <string name="map_info_website">Websiteを見る</string>
+    <string name="map_loc_search_title">現在地を中心に探す</string>
+    <string name="map_menu_back">戻る</string>
+    <string name="map_menu_category_list">List</string>
+    <string name="map_menu_category_menu">Menu</string>
+    <string name="map_menu_loc_search">現在地を中心に探す</string>
+    <string name="map_menu_show_map">地図から探す</string>
+    <string name="map_search">検索</string>
+    <string name="map_storelist_back">へ戻る</string>
+    <string name="map_storelist_back_to_top">ListのTOPへ戻る</string>
+    <string name="map_toast_addr_search_fail">検索に失敗しました</string>
+    <string name="map_toast_getloc_fail">現在地の取得に失敗しました</string>
+    <string name="map_toast_getloc_now">現在地を取得中...</string>
+    <string name="map_toast_getloc_unavailable">現在地を取得できません</string>
+    <string name="map_toast_loc_search_unavailable">現在地を取得できていないため表示できません</string>
+    <string name="map_toast_navi_unavailable">現在地を取得できていないためナビを利用できません</string>
+    <string name="map_toast_no_address">住所が見つかりませんでした</string>
+    <string name="map_toast_no_catalog">カタログが見つかりません</string>
+    <string name="map_toast_unavailable">マップを利用できません</string>
+    <string name="modidy">Modify or Cancel a Reservation</string>
+    <string name="news_close">閉じる</string>
+    <string name="news_title">ニュース</string>
+    <string name="notify">ログイン名の欄に、One Harmony会員番号、またはご登録いただきましたメールアドレスをご入力ください。</string>
+    <string name="ok">了解</string>
+    <string name="open_page_left">左ページのリンクを開く</string>
+    <string name="open_page_right">右ページのリンクを開く</string>
+    <string name="pass">パスワード</string>
+    <string name="prev_btn_login">LOG IN</string>
+    <string name="prev_btn_logout">LOG OUT</string>
+    <string name="prev_hint_mail">Email Address</string>
+    <string name="prev_hint_pass">Password</string>
+    <string name="prev_notify_text1">更新するには再度プレビューボタンを押してください。</string>
+    <string name="prev_notify_text2">アプリアイコンは表示できません。</string>
+    <string name="prev_notify_text_mark">・</string>
+    <string name="prev_notify_title">ご注意事項</string>
+    <string name="prev_notify_title_mark">※</string>
+    <string name="prev_progress_login">ログイン中...</string>
+    <string name="prev_progress_start">プレビューを開始しています</string>
+    <string name="prev_toast_authentication_fail">Emailアドレスまたはパスワードが無効です</string>
+    <string name="prev_toast_connect_fail">サーバに接続できませんでした</string>
+    <string name="prev_toast_get_url_fail">アカウント情報が取得出来ませんでした</string>
+    <!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/build/intermediates/exploded-aar/source.libraries/pullToRefreshLib/unspecified/res/values-ja/values-ja.xml -->
+    <eat-comment/>
+    <string name="pull_to_refresh_pull_label">画面を引っ張って…</string>
+    <string name="pull_to_refresh_refreshing_label">読み込み中…</string>
+    <string name="pull_to_refresh_release_label">指を離して更新…</string>
+    <!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="remember">次回以降自動表示</string>
+    <string name="required_update_msg_key">NewAppMessageJA</string>
+    <string name="reservation">Reservation</string>
+    <string name="search">Search</string>
+    <string name="text_page">ページ</string>
+    <string name="text_tab_down">∨</string>
+    <string name="text_tab_up">∧</string>
+    <string name="title_bookmark">しおり</string>
+    <string name="title_browser"/>
+    <string name="title_help">ヘルプ</string>
+    <string name="title_info">インフォメーション</string>
+    <string name="update_negative_button_key">NegativeButtonNameJA</string>
+    <string name="update_positive_button_key">PositiveButtonNameJA</string>
+</resources>

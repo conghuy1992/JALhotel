@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigationLayout"
+    style="@style/CatalogNavigationTheme" >
+
+    <LinearLayout
+        android:id="@+id/leftLayout"
+        style="@style/NavigationLeftLayoutTheme" >
+
+        <hotelokura.jalhotels.oneharmony.view.FunctionButtonLayout
+            android:id="@+id/homeButton"
+            style="@style/CatalogFunctionButtonLayout"
+            app:button_src="@drawable/toolbaricon_back"
+            app:button_text="@string/button_home" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rightLayout"
+        style="@style/NavigationRightLayoutTheme" >
+
+        <hotelokura.jalhotels.oneharmony.view.FunctionButtonLayout
+            android:id="@+id/questionButton"
+            style="@style/CatalogFunctionButtonLayout"
+            app:button_src="@drawable/toolbaricon_question"
+            app:button_text="@string/button_help" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/centerLayout"
+        style="@style/NavigationCenterLayoutTheme"
+        android:layout_toLeftOf="@+id/rightLayout"
+        android:layout_toRightOf="@+id/leftLayout" >
+
+        <TextView
+            android:id="@+id/titleView"
+            style="@style/NavigationTitleView" />
+    </RelativeLayout>
+
+    <View
+        style="@style/NavigationBoundaryTheme"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

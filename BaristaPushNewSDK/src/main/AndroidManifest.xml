@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.baristapushsdk">
+
+    <!-- for android -->
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+
+    <!-- for Samsung -->
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+
+    <!-- for htc -->
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+
+    <!-- for sony -->
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+
+    <!-- for apex -->
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" />
+
+    <!-- for solid -->
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- <permission -->
+    <!-- android:name="com.baristapushsdk.permission.C2D_MESSAGE" -->
+    <!-- android:protectionLevel="signature" /> -->
+    <!-- <uses-permission android:name="com.baristapushsdk.permission.C2D_MESSAGE" /> -->
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".ui.MessageListSDK"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Holo.Light"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".ui.MessageDetailSDK"
+            android:theme="@android:style/Theme.Holo.Light"
+            android:screenOrientation="sensorPortrait" />
+
+        <!-- <receiver -->
+        <!-- android:name=".gcm.GcmBroadcastReveiver" -->
+        <!-- android:permission="com.google.android.c2dm.permission.SEND"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.android.c2dm.intent.RECEIVE" /> -->
+        <!-- <category android:name="com.baristapushsdk" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <!-- <service android:name=".gcm.GcmIntentService" /> -->
+
+        <activity
+            android:name=".ui.ReadMoreActivity"
+            android:theme="@android:style/Theme.Holo.Light"
+            android:screenOrientation="sensorPortrait" />
+    </application>
+
+</manifest>

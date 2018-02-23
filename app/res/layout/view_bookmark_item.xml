@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:descendantFocusability="blocksDescendants" >
+
+    <LinearLayout
+        android:id="@+id/deleteSwitchButtonLayout"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <ImageButton
+            android:id="@+id/deleteSwitchButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/toggle_del_off"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/view_bookmark_item_vertical_margin"
+        android:layout_marginLeft="@dimen/view_bookmark_item_horizontal_margin"
+        android:layout_marginTop="@dimen/view_bookmark_item_vertical_margin"
+        android:layout_toRightOf="@+id/deleteSwitchButtonLayout"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/subText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/deleteButton"
+        style="@style/NavigationBackButton"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/view_bookmark_item_horizontal_margin"
+        android:text="@string/delete"
+        android:textSize="13sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

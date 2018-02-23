@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <FrameLayout
+        android:id="@+id/frheader"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000000">
+
+        <ImageView
+            android:id="@+id/imgback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="20dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/toolbaricon_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/reservation"
+            android:textSize="18sp" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/frheader"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/bookstay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/bookstay"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <FrameLayout
+            android:id="@+id/frarea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bookstay"
+            android:layout_marginTop="@dimen/margintop"
+            android:background="@drawable/round_button">
+
+            <TextView
+                android:id="@+id/spinnerArea"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_h"
+                android:layout_marginLeft="10dp"
+                android:gravity="center|left"
+                android:text="@string/area"
+                android:textColor="@color/textreservation"
+                android:textSize="18sp" />
+
+            <include
+                layout="@layout/layout_roundbutton"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="15dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frcountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/frarea"
+            android:layout_marginTop="@dimen/margintop"
+            android:background="@drawable/round_button">
+
+            <TextView
+                android:id="@+id/spinnerCountry"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_h"
+                android:layout_marginLeft="10dp"
+                android:gravity="center|left"
+                android:text="@string/country"
+                android:textColor="@color/textreservation"
+                android:textSize="18sp" />
+
+            <include
+                layout="@layout/layout_roundbutton"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="15dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frhotel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/frcountry"
+            android:layout_marginTop="@dimen/margintop"
+            android:background="@drawable/round_button">
+
+            <TextView
+                android:id="@+id/spinnerHotel"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_h"
+                android:layout_marginLeft="10dp"
+                android:gravity="center|left"
+                android:text="@string/hotel"
+                android:textColor="@color/textreservation"
+                android:textSize="18sp" />
+
+            <include
+                layout="@layout/layout_roundbutton"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="15dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frsearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/frhotel"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btnsearch"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_h"
+                android:background="@drawable/round_btnsearch"
+                android:text="@string/search" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="10dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/reservation_search" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frcancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/frsearch"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_button">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_h"
+                android:gravity="center"
+                android:text="@string/modidy"
+                android:textColor="@color/textreservation"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/round_shape_reservation">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/toolbaricon_back_rotate2" />
+            </RelativeLayout>
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgfinish"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/reservation_close_arrow"
+        android:visibility="gone" />
+
+</RelativeLayout>
+<!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/layout/activity_reservation.xml -->

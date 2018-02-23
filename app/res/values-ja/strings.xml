@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 名前は「app.name」としても、javaソースでは「app_name」と変換されるらしい -->
+<resources>
+
+    <string name="app_name">One Harmony</string>
+    <!-- <string name="app_id">548aabfd866b3dc8058b459f</string> --><!-- baricata_master -->
+    <string name="app_id">55b0902d866b3d36658b45c6</string><!-- baricata_sekisui -->
+    <string name="gcm_sender_id">599192067986</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 画面：共通 Strat -->
+    <string name="button_back">戻る</string> <!-- Back -->
+    <string name="button_home">戻る</string> <!-- Home -->
+    <string name="button_help">ヘルプ</string> <!-- Help -->
+    <string name="title_help">ヘルプ</string> <!-- Help -->
+    <string name="title_info">インフォメーション</string> <!-- Information -->
+    <string name="title_browser"></string> <!-- Browser -->
+    <string name="title_bookmark">しおり</string> <!-- Bookmark -->
+
+    <string name="cancel">キャンセル</string> <!-- Cancel -->
+    <string name="delete">削除</string>
+    <string name="close">閉じる</string> <!-- close -->
+    <string name="ok">了解</string> <!-- ok -->
+    <!-- 画面：共通 End -->
+
+    <!-- 画面：エラーメッセージ Strat -->
+    <string name="err_title">エラー</string>
+    <string name="err_button_retry">もう一度接続する</string>
+    <string name="err_button_finish">アプリを終了する</string>
+    <string name="err_not_connected">インターネットに接続できません</string>
+    <string name="err_not_found">最新データの取得ができませんでした</string>
+    <string name="err_status_server">最新データの取得ができませんでした</string>
+    <string name="err_status_url">最新データの取得ができませんでした</string>
+    <string name="err_status_network">最新データの取得ができませんでした</string>
+    <string name="err_status_unkown">最新データの取得ができませんでした</string>
+    <!-- 画面：エラーメッセージ  End -->
+
+
+    <!-- 画面：カタログ Strat -->
+    <string name="catalog_toolbaricon_contents">目次</string>
+    <string name="catalog_toolbaricon_thumbnail">サムネイル</string>
+    <string name="catalog_toolbaricon_bookmark">お気に入り</string>
+    <string name="catalog_toolbaricon_sns">SNS</string>
+    <string name="catalog_toolbaricon_cart">カート</string>
+    <string name="catalog_toolbaricon_building">外部リンク</string>
+    <string name="catalog_toolbaricon_open_to">リンク</string>
+    <string name="catalog_toolbaricon_map">地図</string>
+    <string name="open_page_left">左ページのリンクを開く</string> <!-- Open left page's -->
+    <string name="open_page_right">右ページのリンクを開く</string> <!-- Open right page's -->
+    <string name="text_tab_down">∨</string>
+    <string name="text_tab_up">∧</string>
+    <string name="text_page">ページ</string>
+    <!-- 画面：カタログ End -->
+
+
+    <!-- 画面：しおり Strat -->
+    <string name="bookmark_button_add">＋</string> <!-- + -->
+    <!-- 画面：しおり End -->
+
+
+    <!-- 画面：ヘルプ Strat -->
+    <string name="helppage_1_desc">指タップ</string>
+    <string name="helppage_1">指で一度画面を軽くたたいてタップすると操作メニューが表示できます。2回タップするとページを拡大します。</string>
+    <string name="helppage_2_desc">ドラックスクロール</string>
+    <string name="helppage_2">一本指で拡大画面をドラックしてページをスクロールします</string>
+    <string name="helppage_3_desc">ドラックページめくり</string>
+    <string name="helppage_3">左右にドラッグもしくはフリックをしてページをめくります。</string>
+    <string name="helppage_5_desc">タップページめくり</string>
+    <string name="helppage_5">両端をタップしてページをめくります。</string>
+    <string name="helppage_6_desc">ピンチ</string>
+    <string name="helppage_6">2本指で画面をなぞりながら、間を広げると拡大します、画面をなぞりながら間を縮めると縮小します。</string>
+    <string name="helpicon_x4_100_desc">目次ボタン</string>
+    <string name="helpicon_x4_100">【目次】目次の各項目を押すと選択したページへ移動します。</string>
+    <string name="helpicon_x2_100_desc">サムネイルボタン</string>
+    <string name="helpicon_x2_100">【サムネイル】カタログのページを縮小してプレビュー表示したものです。サムネイル画像を押すと選択したページへ移動します。</string>
+    <string name="help_03_desc">しおりボタン</string>
+    <string name="help_03">【しおり】カタログページの気になったところ、読みかけのところにしおりを挟んで目印とする機能です。</string>
+    <string name="help_09_desc">シェアボタン</string>
+    <string name="help_09">【シェア】このボタンを押すと、facebook、twitter、メールを通して、アプリを薦めることが出来ます。</string>
+    <string name="helpicon_x3_100_desc">動画ボタン</string>
+    <string name="helpicon_x3_100">【動画】ブラウザ機能を利用して、各コンテンツの紹介動画の閲覧が出来ます。</string>
+    <string name="help_15_desc">マップボタン</string>
+    <string name="help_15">【マップ】このボタンを押すと、マップページへ移動します。</string>
+    <string name="help_14_desc">問合せボタン</string>
+    <string name="help_14">【問合せ】このボタンを押すと、お問合せのページへ移動します。</string>
+    <string name="help_07_desc">カートボタン</string>
+    <string name="help_07">【カート】ブラウザ機能を利用して、ショッピングが行えます。</string>
+    <string name="help_07_1_desc">外部リンク</string>
+    <string name="help_07_1">【外部リンク】ブラウザ機能を利用して、外部サイトへのリンクページの閲覧が出来ます。</string>
+    <string name="help_11_desc">リンクボタン</string>
+    <string name="help_11">【リンク】ブラウザ機能を利用して、各ページのリンクページの閲覧が出来ます。</string>
+    <string name="help_07_2_desc">ホームボタン</string>
+    <string name="help_07_2">【戻る】カタログ一覧ページ（TOPページ）に戻ることが出来ます。</string>
+    <string name="helpicon_right_left_desc">ページ移動ボタン</string>
+    <string name="helpicon_right_left">矢印のアイコンが示す方向へページをめくります。</string>
+    <string name="helpicon_pagestartend_desc">末尾ページ移動ボタン</string>
+    <string name="helpicon_pagestartend">それぞれの方向の先頭または最後のページをめくります。</string>
+    <!-- 画面：ヘルプ End -->
+
+
+    <!-- 画面：インフォメーション Strat -->
+    <string name="info_access">コンテンツの詳細情報にアクセス</string> <!-- Detailed infomation of contents -->
+    <string name="info_button_cache_clear">cache clear</string>
+    <string name="delete_cache">キャッシュクリア</string> <!-- Delete cache -->
+    <string name="delete_cache_message">一時ファイルを全て削除します。</string> <!-- Delete cache message -->
+    <string name="delete_cache_execute">削除実行</string> <!-- Delete cache execute -->
+    <string name="delete_cache_complete">一時ファイルを削除しました。\n表示が乱れる場合は、ホームに戻るか、アプリケーションを終了してから再実行してください。</string> <!-- Delete cache complete -->
+    <!-- 画面：インフォメーション End -->
+
+    <!-- 画面：マップ Strat -->
+    <string name="map_search">検索</string>
+    <string name="map_menu_category_menu">Menu</string>
+    <string name="map_menu_category_list">List</string>
+    <string name="map_menu_back">戻る</string>
+    <string name="map_menu_show_map">地図から探す</string>
+    <string name="map_menu_loc_search">現在地を中心に探す</string>
+    <string name="map_storelist_back_to_top">ListのTOPへ戻る</string>
+    <string name="map_storelist_back">へ戻る</string>
+    <string name="map_info_addr">住所</string>
+    <string name="map_info_phone">電話</string>
+    <string name="map_info_website">Websiteを見る</string>
+    <string name="map_info_catalog">カタログを見る</string>
+    <string name="map_loc_search_title">現在地を中心に探す</string>
+    <string name="map_toast_no_catalog">カタログが見つかりません</string>
+    <string name="map_toast_getloc_now">現在地を取得中...</string>
+    <string name="map_toast_getloc_fail">現在地の取得に失敗しました</string>
+    <string name="map_toast_getloc_unavailable">現在地を取得できません</string>
+    <string name="map_toast_unavailable">マップを利用できません</string>
+    <string name="map_toast_no_address">住所が見つかりませんでした</string>
+    <string name="map_toast_addr_search_fail">検索に失敗しました</string>
+    <string name="map_toast_navi_unavailable">現在地を取得できていないためナビを利用できません</string>
+    <string name="map_toast_loc_search_unavailable">現在地を取得できていないため表示できません</string>
+    <!-- 画面：マップ End -->
+
+    <!-- 画面：プレビュー Strat -->
+    <string name="prev_progress_login">ログイン中...</string>
+    <string name="prev_progress_start">プレビューを開始しています</string>
+    <string name="prev_toast_get_url_fail">アカウント情報が取得出来ませんでした</string>
+    <string name="prev_toast_connect_fail">サーバに接続できませんでした</string>
+    <string name="prev_toast_authentication_fail">Emailアドレスまたはパスワードが無効です</string>
+    <string name="prev_hint_mail">Email Address</string>
+    <string name="prev_hint_pass">Password</string>
+    <string name="prev_btn_login">LOG IN</string>
+    <string name="prev_btn_logout">LOG OUT</string>
+    <string name="prev_notify_title_mark">※</string>
+    <string name="prev_notify_title">ご注意事項</string>
+    <string name="prev_notify_text_mark">・</string>
+    <string name="prev_notify_text1">更新するには再度プレビューボタンを押してください。</string>
+    <string name="prev_notify_text2">アプリアイコンは表示できません。</string>
+    <!-- 画面：プレビュー End -->
+
+    <!-- 画面：ニュース Start -->
+    <string name="news_title">ニュース</string>
+    <string name="news_close">閉じる</string>
+    <!-- 画面：ニュース End -->
+
+    <!-- アイコン Strat -->
+    <string name="description_title"></string>
+    <string name="description_button"></string>
+    <string name="description_baricata_logo"></string>
+    <string name="description_seekicon_top"></string>
+    <string name="description_seekicon_prev"></string>
+    <string name="description_seekicon_end"></string>
+    <string name="description_seekicon_next"></string>
+    <string name="description_toolbaricon_information"></string>
+    <string name="description_toolbaricon_open_to"></string>
+    <string name="description_toolbaricon_prev"></string>
+    <string name="description_toolbaricon_next"></string>
+    <string name="description_toolbaricon_stop"></string>
+    <string name="description_toolbaricon_reload"></string>
+    <!-- アイコン End -->
+
+    <!-- アップデート促進機能 -->
+    <string name="required_update_msg_key">NewAppMessageJA</string>
+    <string name="update_positive_button_key">PositiveButtonNameJA</string>
+    <string name="update_negative_button_key">NegativeButtonNameJA</string>
+
+    <string name="remember">次回以降自動表示</string>
+    <string name="loginname">メールアドレス、または会員番号</string>
+    <string name="pass">パスワード</string>
+    <string name="login">ログイン</string>
+    <string name="logout">ログアウト</string>
+    <string name="notify">ログイン名の欄に、One Harmony会員番号、またはご登録いただきましたメールアドレスをご入力ください。</string>
+    <string name="forgotpw">パスワードを忘れた場合</string>
+    <string name="join">入会</string>
+    <string name="reservation">Reservation</string>
+    <string name="bookstay">Book your stay</string>
+    <string name="area">- Select Area -</string>
+    <string name="country">- Select Country -</string>
+    <string name="hotel">- Select Hotel -</string>
+    <string name="search">Search</string>
+    <string name="done">Done</string>
+    <string name="modidy">Modify or Cancel a Reservation</string>
+     <string name="customer_login_alert">ログイン名は必須フィールドです。再入力してください。\nパスワードは必須フィールドです。再入力してください。</string>
+    <string name="customer_login_fail">ログインに失敗しました。再度、ログインを行ってください</string>
+</resources>

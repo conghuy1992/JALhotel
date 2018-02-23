@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_app">#ffcccccc</color>
+    <color name="bg_navi">#ff363636</color>
+    <color name="bg_catalog_navi">#9f323232</color>
+    <color name="bg_catalog_pageinfo">#cf646464</color>
+    <color name="delete_bg_color">#ffff0000</color>
+    <color name="click_overlay_default">#00000000</color>
+    <color name="click_overlay_white">#33ffffff</color>
+    <color name="click_overlay_black">#33000000</color>
+    <color name="buttom_highlight_default">#ffffffff</color>
+    <color name="buttom_highlight_white">#66ffffff</color>
+    <color name="blue">#ff0000ff</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="divider">#ffcccccc</color>
+    <color name="bottom_bar_text">#ff888888</color>
+    <color name="bottom_bar_bg">#fff1f1f1</color>
+    <color name="actions_bg">#ff1e1e1e</color>
+    <color name="actions_divider">#ff888888</color>
+
+    <color name="bg_map_slide_title">#ffeaeaea</color>
+    <color name="bg_map_slide_store_list">#ffffffff</color>
+    <color name="bg_map_slide_store_list_2">#fff1f1f1</color>
+
+    <color name="bg_map_side_category">#ff444444</color>
+    <color name="bg_map_side_list_back">#ff232323</color>
+
+    <color name="prev_bg">#ffeef0f5</color>
+    <color name="text_hint">#ffaaaaaa</color>
+    <color name="input_text">#ff333333</color>
+    <color name="textreservation">#7a7676</color>
+
+</resources>

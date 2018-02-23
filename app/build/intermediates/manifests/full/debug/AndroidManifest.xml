@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hotelokura.jalhotels.oneharmony"
+    android:versionCode="15"
+    android:versionName="2.6.1" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- for Tapjoy -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- for Map -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <permission
+        android:name=".permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name=".permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <!-- Push SDK -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- The below are for push notification, see http://developer.android.com/google/gcm/gs.html -->
+    <permission
+        android:name="hotelokura.jalhotels.oneharmony.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="hotelokura.jalhotels.oneharmony.permission.C2D_MESSAGE" />
+    <!-- App receives GCM messages. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- Let GCM use notification vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- for android -->
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> <!-- for Samsung -->
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" /> <!-- for apex -->
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="hotelokura.jalhotels.oneharmony.MainApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAV_LSJJraPL3w1JiFdV1RueRgzaFTbijM" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="hotelokura.jalhotels.oneharmony.activity.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="hotelokura.jalhotels.oneharmony.brand_preview.PreviewLoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:noHistory="true" />
+        <activity
+            android:name="hotelokura.jalhotels.oneharmony.brand_preview.PreviewMenuActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="hotelokura.jalhotels.oneharmony.activity.splash.SplashActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="hotelokura.jalhotels.oneharmony.activity.coverflow.CoverFlowActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="hotelokura.jalhotels.oneharmony.activity.cataloglist.CatalogListActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="hotelokura.jalhotels.oneharmony.activity.catalog.CatalogActivity"
+            android:configChanges="orientation|screenSize"
+            android:hardwareAccelerated="false" />
+        <activity
+            android:name="hotelokura.jalhotels.oneharmony.activity.bookmark.BookmarkActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="hotelokura.jalhotels.oneharmony.activity.help.HelpActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="hotelokura.jalhotels.oneharmony.activity.info.InfoActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="hotelokura.jalhotels.oneharmony.activity.web.WebViewActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="hotelokura.jalhotels.oneharmony.activity.map.MapActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="hotelokura.jalhotels.oneharmony.activity.webtop.WebTopActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="hotelokura.jalhotels.oneharmony.activity.news.NewsActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/news_title" />
+        <activity
+            android:name="hotelokura.jalhotels.oneharmony.activity.ActivityLogin"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="hotelokura.jalhotels.oneharmony.activity.ActivityReservation"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="hotelokura.jalhotels.oneharmony.activity.news.NewsDetailActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/news_title" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <!-- for Tapjoy(バリカタのみ利用) -->
+        <activity
+            android:name="com.tapjoy.TJCOffersWebView"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.TapjoyFullScreenAdWebView"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.TapjoyVideoView"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.TJAdUnitView"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.tapjoy.mraid.view.ActionHandler"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.mraid.view.Browser"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+
+        <!-- for GCM receive ==> -->
+
+        <receiver
+            android:name="com.baristapushsdk.gcm.GcmBroadcastReveiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.baristapushsdk" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.baristapushsdk.gcm.GcmIntentService" />
+
+        <!-- <receiver -->
+        <!-- android:name="com.ktr.pnplatform.gcm.PNGCMBroadcastReceiver" -->
+        <!-- android:permission="com.google.android.c2dm.permission.SEND"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.android.c2dm.intent.RECEIVE"/> -->
+        <!-- <action android:name="com.google.android.c2dm.intent.REGISTRATION"/> -->
+
+
+        <!-- <category android:name="com.ktr.pnplatform"/> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <!-- <service android:name="com.ktr.pnplatform.gcm.PNGCMIntentService"/> -->
+
+
+        <!-- 検証用ブロードキャストレシーバ -->
+        <receiver android:name="hotelokura.jalhotels.oneharmony.receiver.TestReceiver" >
+            <intent-filter>
+                <action android:name="test.android.intent.action.TEST1" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.baristapushsdk.ui.MessageListSDK"
+            android:launchMode="singleInstance"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="com.baristapushsdk.ui.MessageDetailSDK"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Holo.Light" /> <!-- <receiver -->
+        <!-- android:name=".gcm.GcmBroadcastReveiver" -->
+        <!-- android:permission="com.google.android.c2dm.permission.SEND"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.android.c2dm.intent.RECEIVE" /> -->
+        <!-- <category android:name="com.baristapushsdk" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <!-- <service android:name=".gcm.GcmIntentService" /> -->
+        <activity
+            android:name="com.baristapushsdk.ui.ReadMoreActivity"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@android:style/Theme.Holo.Light" />
+    </application>
+
+</manifest>

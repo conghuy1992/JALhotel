@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 選択状態の選択肢が押されたとき -->
+    <item
+        android:state_checked="true"
+        android:state_pressed="true"
+        android:drawable="@drawable/prev_menu_start_ov"/>
+    <!-- 選択されているとき -->
+    <item
+        android:state_checked="true"
+        android:drawable="@drawable/prev_menu_start"/>
+    <!-- 選択されていない選択肢が押されたとき -->
+    <item
+        android:state_checked="false"
+        android:state_pressed="true"
+        android:drawable="@drawable/prev_menu_start_ov"/>
+    <!-- 選択されていない選択肢にフォーカスがあたったとき -->
+    <item
+        android:state_focused="true"
+        android:state_checked="false"
+        android:state_pressed="false"
+        android:drawable="@drawable/prev_menu_start"/>
+    <!-- 選択されていない選択肢のデフォルト状態 -->
+    <item
+        android:state_checked="false"
+        android:drawable="@drawable/prev_menu_start"/>
+</selector>

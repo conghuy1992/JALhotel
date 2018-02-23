@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/toolbarLayout1"
+        style="@style/CatalogToolbarTheme" >
+
+        <LinearLayout
+            android:id="@+id/toolbarContentsLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <View
+            style="@style/ToolbarBoundaryTheme"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/toolbarLayout2"
+        style="@style/CatalogToolbarTheme" >
+
+        <LinearLayout
+            android:id="@+id/toolbarContentsLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <View
+            style="@style/ToolbarBoundaryTheme"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/Users/barista7/Desktop/source/baricata_jalhotel_english_android/source/app/res/layout/view_catalog_toolbar.xml -->
